@@ -1,4 +1,5 @@
 ﻿using NostalgiaOrbitDLL;
+using NostalgiaOrbitDLL.Core;
 using NostalgiaOrbitDLL.Core.Commands;
 using NostalgiaOrbitDLL.Core.Responses;
 using System.Collections;
@@ -130,8 +131,11 @@ public class ShipController : MonoBehaviour
 
     public void UseRocket()
     {
-        if (IsLocalPlayer)
+        if (IsLocalPlayer && SelectedMapObject != null)
         {
+            ShipAnimation?.RotateToPosition(SelectedMapObject.Position);
+            DronesLayer?.SetTargetPosition(ParentTransform, SelectedMapObject.Position);
+
             LogMessage.NewMessage($"Use rocket on {SelectedMapObject.MapObject.Name}"); // TODO lang
             Client.SendToSocket(ServerChannels.Game, new SelectTargetCommand(SelectedMapObject.MapObject.Id, AmmunitionAttackSelectedObject, true));
         }
@@ -179,12 +183,12 @@ public class ShipController : MonoBehaviour
         if (AmmunitionAttackSelectedObject && SelectedMapObject != null)
         {
             ShipAnimation?.RotateToPosition(SelectedMapObject.Position);
-            DronesLayer?.SetTargetPosition(Position, SelectedMapObject.Position);
+            DronesLayer?.SetTargetPosition(ParentTransform, SelectedMapObject.Position);
         }
         else
         {
             ShipAnimation?.RotateToPosition(TargetPosition);
-            DronesLayer?.SetTargetPosition(Position, TargetPosition);
+            DronesLayer?.SetTargetPosition(ParentTransform, TargetPosition);
         }
     }
 
@@ -405,14 +409,17 @@ public class ShipController : MonoBehaviour
     public void OnAttackResponse(AttackResponse response, ShipController targetController, Transform bulletTransform)
     {
         SelectedMapObject = targetController;
-        AmmunitionAttackSelectedObject = response.ResourceType.HasValue;
 
         if (response.ResourceType.HasValue)
         {
+            bool isRocket = DLLHelpers.IsRocketType(response.ResourceType.Value);
+            if (!isRocket)
+                AmmunitionAttackSelectedObject = response.ResourceType.HasValue;
+
             var bullet = Instantiate(Helpers.LoadPrefabResource(response.ResourceType.Value), bulletTransform);
             var bulletController = bullet.GetComponent<BulletController>();
 
-            bulletController.Setup(Position, SelectedMapObject.Position);
+            bulletController.Setup(Position, SelectedMapObject.gameObject, isRocket);
         }
     }
 }

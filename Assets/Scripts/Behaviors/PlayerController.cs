@@ -1,4 +1,5 @@
 ﻿using NostalgiaOrbitDLL;
+using NostalgiaOrbitDLL.Core;
 using NostalgiaOrbitDLL.Core.Responses;
 using NostalgiaOrbitDLL.Enemies;
 using NostalgiaOrbitDLL.Maps;
@@ -59,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
         if (AllObjectsController.ContainsKey(mapObject.Id))
         {
-            Debug.LogError($"OnSpawnMapObject : {mapObject.Id} already exist!");
+            //Debug.LogError($"OnSpawnMapObject : {mapObject.Id} already exist!");
             return;
         }
 
@@ -95,7 +96,7 @@ public class PlayerController : MonoBehaviour
 
         if (!AllObjectsController.ContainsKey(mapObjectId))
         {
-            Debug.LogError($"OnDisposeMapObject : {mapObjectId} not exist to dispose!");
+            //Debug.LogError($"OnDisposeMapObject : {mapObjectId} not exist to dispose!");
             return;
         }
 
@@ -119,7 +120,7 @@ public class PlayerController : MonoBehaviour
 
         if (!AllEnvironments.ContainsKey(environmentObjectId))
         {
-            Debug.LogError($"OnDisposeEnvironmentObjectResponse : {environmentObjectId} not exist to dispose!");
+            //Debug.LogError($"OnDisposeEnvironmentObjectResponse : {environmentObjectId} not exist to dispose!");
             return;
         }
 
@@ -144,7 +145,7 @@ public class PlayerController : MonoBehaviour
 
         if (!AllObjectsController.ContainsKey(mapObjectId))
         {
-            Debug.LogError($"OnDestroyMapObjectResponse : {mapObjectId} not exist to destroy!");
+            //Debug.LogError($"OnDestroyMapObjectResponse : {mapObjectId} not exist to destroy!");
             return;
         }
 
@@ -163,6 +164,11 @@ public class PlayerController : MonoBehaviour
 
         Destroy(AllObjectsController[mapObjectId].gameObject);
         AllObjectsController.Remove(mapObjectId);
+    }
+
+    public void OnLogout(LogoutResponse logoutResponse)
+    {
+        GameScreen.OnLogout(logoutResponse);
     }
 
     public void OnRewardResponse(RewardResponse rewardResponse)
@@ -230,6 +236,18 @@ public class PlayerController : MonoBehaviour
             {
                 AllObjectsController[response.AttackerId].SelectedMapObject = null;
             }
+
+            if (response.AttackerId == Client.Pilot.Id && response.ResourceType.HasValue)
+            {
+                if (DLLHelpers.IsAmmunitionType(response.ResourceType.Value))
+                {
+                    GameScreen.FooterButtons[0].StartAnimation();
+                }
+                else if (DLLHelpers.IsRocketType(response.ResourceType.Value))
+                {
+                    GameScreen.FooterButtons[1].StartAnimation();
+                }
+            }
         }
     }
 
@@ -240,6 +258,8 @@ public class PlayerController : MonoBehaviour
         var previousMap = AbstractMap.GetMapByType(Client.Pilot.Map);
 
         Client.Pilot.Map = mapType;
+
+        GameScreen.FooterButtons[4].StartAnimation();
 
         Helpers.DestroyAllChilds(MapTransform);
         Helpers.DestroyAllChilds(BaseTransform);

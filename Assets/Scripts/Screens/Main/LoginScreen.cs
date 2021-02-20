@@ -22,6 +22,12 @@ public class LoginScreen : MonoBehaviour
     [SerializeField]
     public MainScreen MainScreen;
 
+    private void Awake()
+    {
+        UsernameInputField.text = PlayerPrefs.GetString(nameof(Pilot.Username));
+        PasswordInputField.text = PlayerPrefs.GetString(nameof(Pilot.Password));
+    }
+
     public void LoginExecute()
     {
         ClearErrors();
@@ -46,6 +52,9 @@ public class LoginScreen : MonoBehaviour
 
         if (!exceptions.Any())
         {
+            PlayerPrefs.SetString(nameof(Pilot.Username), command.Username);
+            PlayerPrefs.SetString(nameof(Pilot.Password), command.Password);
+
             command.HashPassword();
 
             Client.SendToSocket<LoginResponse>(ServerChannels.Main, command, LoginCallback);

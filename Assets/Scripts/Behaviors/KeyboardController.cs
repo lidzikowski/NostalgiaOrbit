@@ -32,23 +32,23 @@ public class KeyboardController : MonoBehaviour
 
         else if (Input.GetKeyDown(KeyCode.Alpha1))  // TODO - server
         {
-            Client.SendToSocket(ServerChannels.Game, new ChooseResourceCommand(ResourceTypes.Ammunition1, Client.Pilot.Select_Rocket));
+            ChangeAmmunition(ResourceTypes.Ammunition1);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Client.SendToSocket(ServerChannels.Game, new ChooseResourceCommand(ResourceTypes.Ammunition2, Client.Pilot.Select_Rocket));
+            ChangeAmmunition(ResourceTypes.Ammunition2);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Client.SendToSocket(ServerChannels.Game, new ChooseResourceCommand(ResourceTypes.Ammunition3, Client.Pilot.Select_Rocket));
+            ChangeAmmunition(ResourceTypes.Ammunition3);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            Client.SendToSocket(ServerChannels.Game, new ChooseResourceCommand(ResourceTypes.Ammunition4, Client.Pilot.Select_Rocket));
+            ChangeAmmunition(ResourceTypes.Ammunition4);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha5))
         {
-            Client.SendToSocket(ServerChannels.Game, new ChooseResourceCommand(ResourceTypes.AmmunitionSab, Client.Pilot.Select_Rocket));
+            ChangeAmmunition(ResourceTypes.AmmunitionSab);
         }
 
         else if (Input.GetKeyDown(KeyCode.J) && !UsePortal)
@@ -80,6 +80,35 @@ public class KeyboardController : MonoBehaviour
         {
             PlayerController.GameScreen.SmallHub();
         }
+
+        else if (Input.GetKeyDown(KeyCode.L))
+        {
+            PlayerController.GameScreen.OnLogout();
+        }
+    }
+
+    public void ChangeAmmunition(int id)
+    {
+        ChangeAmmunition((ResourceTypes)id);
+    }
+    public void ChangeAmmunition(ResourceTypes resource)
+    {
+        Client.Pilot.Select_Ammunition = resource;
+        Client.SendToSocket(ServerChannels.Game, new ChooseResourceCommand(resource, Client.Pilot.Select_Rocket));
+        PlayerController.GameScreen.UpdateAmmunitionBar();
+        PlayerController.GameScreen.FooterButtons[2].Click();
+    }
+
+    public void ChangeRocket(int id)
+    {
+        ChangeRocket((ResourceTypes)id);
+    }
+    public void ChangeRocket(ResourceTypes resource)
+    {
+        Client.Pilot.Select_Rocket = resource;
+        Client.SendToSocket(ServerChannels.Game, new ChooseResourceCommand(Client.Pilot.Select_Ammunition, resource));
+        PlayerController.GameScreen.UpdateAmmunitionBar();
+        PlayerController.GameScreen.FooterButtons[3].Click();
     }
 
     private DateTime NextUsePortal;

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1827874064467850442}
-  - component: {fileID: 6829068102505898082}
+  - component: {fileID: 8436155774363561132}
   m_Layer: 0
   m_Name: InvisiblePortal
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6829068102505898082
+--- !u!114 &8436155774363561132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,6 +40,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1827874064467850443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be3fba49e1d9d5a4d82ad365160ef654, type: 3}
+  m_Script: {fileID: 11500000, guid: a637c217529051c4d8a33d82ed0ede4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -7,10 +7,10 @@ public class DroneLayerController : MonoBehaviour
 {
     public List<SpriteAnimation> DroneAnimations = new List<SpriteAnimation>();
 
-    private Vector2 RootPosition;
+    private Transform RootTransform;
     private Vector2 TargetPosition;
+    private Vector2 localTargetPosition;
     private float RotateAngle;
-    private Quaternion beforeRotation;
 
     private void Start()
     {
@@ -23,14 +23,29 @@ public class DroneLayerController : MonoBehaviour
         Rotate();
     }
 
+    private void RotateTransform()
+    {
+        float angle = Mathf.Atan2(TargetPosition.y - transform.position.y, TargetPosition.x - transform.position.x);
+        if (angle == 0)
+            return;
+        RotateAngle = angle * Mathf.Rad2Deg + 180;
+    }
+
     private void Rotate()
     {
-        beforeRotation = transform.rotation;
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, RotateAngle), Time.deltaTime);
 
-        if (beforeRotation != transform.rotation && DroneAnimations.Any() && Vector2.Distance(RootPosition, TargetPosition) > 0)
+        if (DroneAnimations.Any())
         {
-            int droneFrame = DroneAnimations[0].CalculateFrameToPosition(transform, TargetPosition);
+            var direction = (TargetPosition - (Vector2)transform.position).normalized;
+            var targetPos = (Vector2)transform.position + direction * 20;
+
+            if ((Vector2)transform.position != targetPos)
+            {
+                localTargetPosition = targetPos;
+            }
+
+            int droneFrame = DroneAnimations[0].CalculateFrameToPosition(transform, localTargetPosition);
 
             if (droneFrame == -1)
                 return;
@@ -40,14 +55,6 @@ public class DroneLayerController : MonoBehaviour
                 drone.RenderFrame(droneFrame);
             }
         }
-    }
-
-    private void RotateTransform()
-    {
-        float angle = Mathf.Atan2(TargetPosition.y - transform.position.y, TargetPosition.x - transform.position.x);
-        if (angle == 0)
-            return;
-        RotateAngle = angle * Mathf.Rad2Deg + 180;
     }
 
     public void SetDrones(List<Drone> drones)
@@ -62,18 +69,6 @@ public class DroneLayerController : MonoBehaviour
         if (drones == null || !drones.Any())
             return;
 
-        //drones = new List<Drone>()
-        //{
-        //    new Drone(DroneTypes.Iris),
-        //    new Drone(DroneTypes.Iris),
-        //    new Drone(DroneTypes.Iris),
-        //    new Drone(DroneTypes.Iris),
-        //    new Drone(DroneTypes.Iris),
-        //    new Drone(DroneTypes.Iris),
-        //    new Drone(DroneTypes.Iris),
-        //    new Drone(DroneTypes.Iris),
-        //};
-
         for (int i = 0; i < drones.Count; i++)
         {
             var child = transform.GetChild(i);
@@ -87,9 +82,9 @@ public class DroneLayerController : MonoBehaviour
         }
     }
 
-    public void SetTargetPosition(Vector2 rootPosition, Vector2 targetPosition)
+    public void SetTargetPosition(Transform rootTransform, Vector2 targetPosition)
     {
-        RootPosition = rootPosition;
+        RootTransform = rootTransform;
         TargetPosition = targetPosition;
     }
 }

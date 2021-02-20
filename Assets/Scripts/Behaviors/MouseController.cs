@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using NostalgiaOrbitDLL;
+using NostalgiaOrbitDLL.Core.Commands;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(PlayerController))]
@@ -96,6 +98,11 @@ public class MouseController : MonoBehaviour
 
     public void ChangeTargetPosition(Vector3 position)
     {
+        if (GameScreen.LogoutStatus)
+        {
+            Client.SendToSocket(ServerChannels.Game, new LogoutCommand(LogoutTypes.FromMap, true));
+        }
+
         PlayerController.LocalShipController?.OnNewTargetPosition(position);
     }
 }

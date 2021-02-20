@@ -4,10 +4,8 @@ using NostalgiaOrbitDLL.Core.Commands;
 using NostalgiaOrbitDLL.Core.Exceptions;
 using NostalgiaOrbitDLL.Core.Responses;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
 using WebSocketSharp;
 
@@ -97,12 +95,8 @@ public class Client : MonoBehaviour
             var pilot = Pilot;
             abstractCommand.ConfigureJWToken(JWToken);
 
-            var commandId = Guid.NewGuid();
-
-            abstractCommand.CommandId = commandId;
-
             Sockets[serverChannel].Socket.Send(DLLHelpers.Serialize(abstractCommand));
-            Debug.Log($"{serverChannel} -> SendToSocket: {abstractCommand.GetType().Name} Id: {commandId}");
+            Debug.Log($"{serverChannel} -> SendToSocket: {abstractCommand.GetType().Name}");
         }
         catch (InvalidOperationException)
         {

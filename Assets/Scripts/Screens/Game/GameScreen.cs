@@ -1,7 +1,9 @@
 using NostalgiaOrbitDLL;
 using NostalgiaOrbitDLL.Core;
+using NostalgiaOrbitDLL.Core.Commands;
 using NostalgiaOrbitDLL.Core.Responses;
 using NostalgiaOrbitDLL.Items;
+using NostalgiaOrbitDLL.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -100,11 +102,35 @@ public class GameScreen : MonoBehaviour
 
     [SerializeField]
     public TMP_Text[] AmmunitionsBarText;
+    [SerializeField]
+    public Button[] AmmunitionsBuyButton;
 
     [SerializeField]
     public TMP_Text[] RocketsBarText;
+    [SerializeField]
+    public Button[] RocketsBuyButton;
+
+    [Header("Logout communicat")]
+    [SerializeField]
+    public GameObject LogoutCommunicatGameObject;
+    [SerializeField]
+    public TMP_Text LogoutLeftText;
 
 
+    [Header("Footer bar")]
+    [SerializeField]
+    public FooterButton[] FooterButtons;
+    [SerializeField]
+    public Sprite NormalSprite;
+    [SerializeField]
+    public Sprite UseSprite;
+
+
+
+    private void Start()
+    {
+        LogoutStatus = default;
+    }
 
     public void OnPilotDataChange(Pilot pilot)
     {
@@ -156,6 +182,7 @@ public class GameScreen : MonoBehaviour
         }
 
         UpdateUserInterface(Client.Pilot);
+        UpdateAmmunitionBar();
 
         LogMessage.NewMessage(TextFromReward(message, response.Reward));
     }
@@ -204,7 +231,7 @@ public class GameScreen : MonoBehaviour
 
     public void OnHitpointsChange(long hitpoints, long maxHitpoints)
     {
-        HitpointsText.text = ExtraHitpointsText.text = $"{hitpoints} / {maxHitpoints}";
+        HitpointsText.text = ExtraHitpointsText.text = $"{hitpoints}";
 
         var percentage = (float)hitpoints / (float)maxHitpoints;
 
@@ -333,7 +360,9 @@ public class GameScreen : MonoBehaviour
 
     private void OnAmmunitionChange(List<PilotResource> resources)
     {
-        var batteriesQuantity = resources.Where(o => DLLHelpers.IsAmmunitionType(o.ResourceType)).Sum(o => o.Quantity);
+        Client.Pilot.Resources = resources;
+
+        var batteriesQuantity = Client.Pilot.Resources.Where(o => DLLHelpers.IsAmmunitionType(o.ResourceType)).Sum(o => o.Quantity);
 
         BatteriesText.text = batteriesQuantity.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
 
@@ -342,7 +371,7 @@ public class GameScreen : MonoBehaviour
         BatteriesSlider.value = batteries;
 
 
-        var rocketsQuantity = resources.Where(o => DLLHelpers.IsRocketType(o.ResourceType)).Sum(o => o.Quantity);
+        var rocketsQuantity = Client.Pilot.Resources.Where(o => DLLHelpers.IsRocketType(o.ResourceType)).Sum(o => o.Quantity);
 
         RocketsText.text = rocketsQuantity.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
 
@@ -350,51 +379,106 @@ public class GameScreen : MonoBehaviour
 
         RocketsSlider.value = rockets;
 
+        UpdateAmmunitionBar();
+    }
+
+    public void UpdateAmmunitionBar()
+    {
         for (int i = 0; i < AmmunitionsBarText.Length; i++)
         {
-            AmmunitionsBarText[i].text = "0";
-
             switch (i)
             {
                 case 0:
-                    AmmunitionsBarText[i].text = Quantity(ResourceTypes.Ammunition1);
+                    Apply(AmmunitionsBarText[i], AmmunitionsBuyButton[i], ResourceTypes.Ammunition1);
                     break;
                 case 1:
-                    AmmunitionsBarText[i].text = Quantity(ResourceTypes.Ammunition2);
+                    Apply(AmmunitionsBarText[i], AmmunitionsBuyButton[i], ResourceTypes.Ammunition2);
                     break;
                 case 2:
-                    AmmunitionsBarText[i].text = Quantity(ResourceTypes.Ammunition3);
+                    Apply(AmmunitionsBarText[i], AmmunitionsBuyButton[i], ResourceTypes.Ammunition3);
                     break;
                 case 3:
-                    AmmunitionsBarText[i].text = Quantity(ResourceTypes.Ammunition4);
+                    Apply(AmmunitionsBarText[i], AmmunitionsBuyButton[i], ResourceTypes.Ammunition4);
                     break;
                 case 4:
-                    AmmunitionsBarText[i].text = Quantity(ResourceTypes.AmmunitionSab);
+                    Apply(AmmunitionsBarText[i], AmmunitionsBuyButton[i], ResourceTypes.AmmunitionSab);
                     break;
             };
         }
 
         for (int i = 0; i < RocketsBarText.Length; i++)
         {
-            RocketsBarText[i].text = "0";
-
             switch (i)
             {
                 case 0:
-                    RocketsBarText[i].text = Quantity(ResourceTypes.Rocket1);
+                    Apply(RocketsBarText[i], RocketsBuyButton[i], ResourceTypes.Rocket1);
                     break;
                 case 1:
-                    RocketsBarText[i].text = Quantity(ResourceTypes.Rocket2);
+                    Apply(RocketsBarText[i], RocketsBuyButton[i], ResourceTypes.Rocket2);
                     break;
                 case 2:
-                    RocketsBarText[i].text = Quantity(ResourceTypes.Rocket3);
+                    Apply(RocketsBarText[i], RocketsBuyButton[i], ResourceTypes.Rocket3);
                     break;
             };
         }
 
+        void Apply(TMP_Text tmp_text, Button buyButton, ResourceTypes resource)
+        {
+            tmp_text.text = Quantity(resource);
+            tmp_text.transform.parent.GetComponent<Image>().sprite = Client.Pilot.Select_Ammunition == resource || Client.Pilot.Select_Rocket == resource ? UseSprite : NormalSprite;
+
+            if (buyButton != null)
+            {
+                buyButton.gameObject.SetActive(Client.Pilot.Select_Ammunition == resource || Client.Pilot.Select_Rocket == resource);
+
+                var item = AbstractResource.GetResourceByType(resource);
+                float price = item.CanBuyUridium ? item.UridiumPurchase[0] : item.CanBuyByCredit ? item.CreditPurchase[0] : 0;
+                int quantity = DLLHelpers.IsAmmunitionType(resource) ? 1000 : 100;
+                float sum = price * quantity;
+
+                buyButton.transform.GetChild(1).GetComponent<TMP_Text>().text = (sum).ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
+                buyButton.onClick.AddListener(() =>
+                {
+                    Debug.LogWarning($"Buy {quantity}x {resource} for {sum}");
+                });
+            }
+        }
+
         string Quantity(ResourceTypes resource)
         {
-            return (resources.FirstOrDefault(o => o.ResourceType == resource)?.Quantity ?? 0).ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
+            return (Client.Pilot.Resources.FirstOrDefault(o => o.ResourceType == resource)?.Quantity ?? 0).ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
+        }
+    }
+
+    public static bool LogoutStatus;
+    private int logountCounter;
+    public void OnLogout(bool status = false)
+    {
+        if (LogoutStatus == status)
+        {
+            logountCounter = 0;
+            Client.SendToSocket(ServerChannels.Game, new LogoutCommand(LogoutTypes.FromMap, status));
+        }
+    }
+
+    public void OnLogout(LogoutResponse logoutResponse)
+    {
+        LogoutStatus = logoutResponse.IsWantLogout;
+
+        if (logoutResponse.LogoutTimer == 0)
+        {
+            logountCounter++;
+
+            if (logountCounter > 1)
+            {
+                LogoutCommunicatGameObject.SetActive(false);
+                OnLogout(true);
+            }
+        }
+        else
+        {
+            LogoutCommunicatGameObject.SetActive(LogoutStatus);
+            LogoutLeftText.text = $"{logoutResponse.RequireLogoutTime - logoutResponse.LogoutTimer}";
         }
     }
 }

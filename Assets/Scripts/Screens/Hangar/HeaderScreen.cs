@@ -63,8 +63,8 @@ public class HeaderScreen : MonoBehaviour
 
         Jackpot.text = pilot.GetResource(ResourceTypes.Jackpot).ToString(Helpers.DoubleSeparator, Helpers.NumberFormat);
 
-        Credits.text = pilot.GetResource(ResourceTypes.Credits).ToString(Helpers.DoubleSeparator, Helpers.NumberFormat);
+        Credits.text = pilot.GetResource(ResourceTypes.Credits).ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
 
-        Uridium.text = pilot.GetResource(ResourceTypes.Uridium).ToString(Helpers.DoubleSeparator, Helpers.NumberFormat);
+        Uridium.text = pilot.GetResource(ResourceTypes.Uridium).ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
     }
 }

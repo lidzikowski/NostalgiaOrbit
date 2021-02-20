@@ -38,9 +38,10 @@ public class GameSocket : AbstractSocket
                 if (PlayerController == null)
                     PlayerController = GetPlayerController;
 
-                if (abstractGameResponse.ResponseId != default && !Client.ExecuteCommand(abstractGameResponse))
+                if (abstractGameResponse.ResponseId != default)
                 {
-                    Debug.LogError($"Unhandle game response {abstractGameResponse.GetType()}");
+                    if (!Client.ExecuteCommand(abstractGameResponse))
+                        Debug.LogError($"Unhandle game response {abstractGameResponse.GetType()}");
                     return;
                 }
 
@@ -100,6 +101,10 @@ public class GameSocket : AbstractSocket
                 else if (abstractGameResponse is ChangeMapResponse changeMapResponse)
                 {
                     PlayerController.OnMapChange(changeMapResponse.MapType);
+                }
+                else if (abstractGameResponse is LogoutResponse logoutResponse)
+                {
+                    PlayerController.OnLogout(logoutResponse);
                 }
 
                 //else if (!Client.ExecuteCommand(abstractGameResponse))

@@ -136,8 +136,8 @@ public class SpriteAnimation : MonoBehaviour
 
     public int CalculateFrameToPosition(Transform startPosition, Vector3 position)
     {
-        if (startPosition.position == position)
-            return -1;
+        //if (startPosition.position == position)
+        //    return -1;
 
         Vector3 relative = startPosition.InverseTransformPoint(position);
         var angle = Mathf.Atan2(relative.y, -relative.x) * Mathf.Rad2Deg;

@@ -102,5 +102,21 @@ MonoBehaviour:
     m_Localized: DODATKI
     m_Metadata:
       m_Items: []
+  - m_Id: 9367212047151104
+    m_Localized: Anuluj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9368295163244544
+    m_Localized: wylogowywanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9369275317563392
+    m_Localized: zostaniesz bezpiecznie wylogowany z mapy za
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9369357148434432
+    m_Localized: sekund
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

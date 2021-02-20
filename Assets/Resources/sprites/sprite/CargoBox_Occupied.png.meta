@@ -1,0 +1,3174 @@
+fileFormatVersion: 2
+guid: 03ae4d589df84f54aa1ce4936557e6d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4244246678225918853
+    second: cargo_0
+  - first:
+      213: -871274254737221100
+    second: cargo_1
+  - first:
+      213: -1656896209662732164
+    second: cargo_2
+  - first:
+      213: 626874307464294791
+    second: cargo_3
+  - first:
+      213: 718035146379620482
+    second: cargo_4
+  - first:
+      213: 312999939107445949
+    second: cargo_5
+  - first:
+      213: -4492626345056696275
+    second: cargo_6
+  - first:
+      213: 5548423792332111950
+    second: cargo_7
+  - first:
+      213: 8221443378027827595
+    second: cargo_8
+  - first:
+      213: -3220089566175788882
+    second: cargo_9
+  - first:
+      213: -6238273921669667602
+    second: cargo_10
+  - first:
+      213: 166361175442068899
+    second: cargo_11
+  - first:
+      213: -8330418234416669683
+    second: cargo_12
+  - first:
+      213: -4652222730243487022
+    second: cargo_13
+  - first:
+      213: -3879206912402018572
+    second: cargo_14
+  - first:
+      213: 6172842914663016082
+    second: cargo_15
+  - first:
+      213: -159670210798360495
+    second: cargo_16
+  - first:
+      213: 8203093255737007685
+    second: cargo_17
+  - first:
+      213: -1433692756754422998
+    second: cargo_18
+  - first:
+      213: 5280620963827230766
+    second: cargo_19
+  - first:
+      213: 5719112347610614843
+    second: cargo_20
+  - first:
+      213: -4168141761567291655
+    second: cargo_21
+  - first:
+      213: -415839592247389225
+    second: cargo_22
+  - first:
+      213: -6140353067333759770
+    second: cargo_23
+  - first:
+      213: 7733812855585369321
+    second: cargo_24
+  - first:
+      213: -4252204502030816362
+    second: cargo_25
+  - first:
+      213: 8498878153570470164
+    second: cargo_26
+  - first:
+      213: 7521660495061806550
+    second: cargo_27
+  - first:
+      213: -8650375862827133875
+    second: cargo_28
+  - first:
+      213: -4148077317452512789
+    second: cargo_29
+  - first:
+      213: 5571702672905245195
+    second: cargo_30
+  - first:
+      213: -1641073721273412225
+    second: cargo_31
+  - first:
+      213: 2021507018070843773
+    second: cargo_32
+  - first:
+      213: 2608541602103171604
+    second: cargo_33
+  - first:
+      213: 5981259192858376665
+    second: cargo_34
+  - first:
+      213: -6859712894142298044
+    second: cargo_35
+  - first:
+      213: 5213049547247133312
+    second: cargo_36
+  - first:
+      213: -3093315505512038393
+    second: cargo_37
+  - first:
+      213: 4606423117155476471
+    second: cargo_38
+  - first:
+      213: -3868197781324384064
+    second: cargo_39
+  - first:
+      213: 1205649421236312642
+    second: cargo_40
+  - first:
+      213: -8474334230564753308
+    second: cargo_41
+  - first:
+      213: 7553112509820203499
+    second: cargo_42
+  - first:
+      213: 2221521648749240777
+    second: cargo_43
+  - first:
+      213: 1397150714852665614
+    second: cargo_44
+  - first:
+      213: 5516133758536533467
+    second: cargo_45
+  - first:
+      213: -4608139786459980421
+    second: cargo_46
+  - first:
+      213: 9016798070990096141
+    second: cargo_47
+  - first:
+      213: 5960709038090336783
+    second: cargo_48
+  - first:
+      213: 5985098968857055765
+    second: cargo_49
+  - first:
+      213: -7514018145494388656
+    second: cargo_50
+  - first:
+      213: -6208813643218873003
+    second: cargo_51
+  - first:
+      213: -5055049640865071907
+    second: cargo_52
+  - first:
+      213: 4282722941320487115
+    second: cargo_53
+  - first:
+      213: -6329694009944488846
+    second: cargo_54
+  - first:
+      213: -539209534276110744
+    second: cargo_55
+  - first:
+      213: 5150533836618594519
+    second: cargo_56
+  - first:
+      213: 2997630359377946769
+    second: cargo_57
+  - first:
+      213: -3284526995733409288
+    second: cargo_58
+  - first:
+      213: -5915525118876427275
+    second: cargo_59
+  - first:
+      213: -3843363567655458633
+    second: cargo_60
+  - first:
+      213: 610704522698803141
+    second: cargo_61
+  - first:
+      213: -5884957296360178565
+    second: cargo_62
+  - first:
+      213: -8794388035704995843
+    second: cargo_63
+  - first:
+      213: 2668553887606074013
+    second: cargo_64
+  - first:
+      213: 5136560607807807749
+    second: cargo_65
+  - first:
+      213: -5020597986533371041
+    second: cargo_66
+  - first:
+      213: -4285110242451105134
+    second: cargo_67
+  - first:
+      213: -1588279535096203592
+    second: cargo_68
+  - first:
+      213: 4016382918243457193
+    second: cargo_69
+  - first:
+      213: -5352723722970675705
+    second: cargo_70
+  - first:
+      213: 1524771273581320572
+    second: cargo_71
+  - first:
+      213: -8174619346959252221
+    second: cargo_72
+  - first:
+      213: -1166721955427896002
+    second: cargo_73
+  - first:
+      213: -6250215893514472553
+    second: cargo_74
+  - first:
+      213: -7626609402074037777
+    second: cargo_75
+  - first:
+      213: 9112342900948473165
+    second: cargo_76
+  - first:
+      213: 1089567989540764425
+    second: cargo_77
+  - first:
+      213: 4115699367987471286
+    second: cargo_78
+  - first:
+      213: -4482169015634159040
+    second: cargo_79
+  - first:
+      213: -2695591951615231393
+    second: cargo_80
+  - first:
+      213: -6024939191936786156
+    second: cargo_81
+  - first:
+      213: 3775056390445110106
+    second: cargo_82
+  - first:
+      213: -5091363665479165333
+    second: cargo_83
+  - first:
+      213: -6583261041647996373
+    second: cargo_84
+  - first:
+      213: -8500022955762468439
+    second: cargo_85
+  - first:
+      213: 2141464561731110236
+    second: cargo_86
+  - first:
+      213: 6137092905589548796
+    second: cargo_87
+  - first:
+      213: 293405934834594315
+    second: cargo_88
+  - first:
+      213: -6614434144041423035
+    second: cargo_89
+  - first:
+      213: 8779547293322973817
+    second: cargo_90
+  - first:
+      213: 2303861310824029278
+    second: cargo_91
+  - first:
+      213: 3731404299384035595
+    second: cargo_92
+  - first:
+      213: -7460989325815142755
+    second: cargo_93
+  - first:
+      213: -7095277858643996119
+    second: cargo_94
+  - first:
+      213: 7025077225319772030
+    second: cargo_95
+  - first:
+      213: 6942849120526448388
+    second: cargo_96
+  - first:
+      213: -5799321141539331813
+    second: cargo_97
+  - first:
+      213: 2478872219795657611
+    second: cargo_98
+  - first:
+      213: -1913678624026150583
+    second: cargo_99
+  - first:
+      213: -4409702394604105859
+    second: cargo_100
+  - first:
+      213: 7323813003118235611
+    second: cargo_101
+  - first:
+      213: 8291602614159118019
+    second: cargo_102
+  - first:
+      213: -3325519197262274661
+    second: cargo_103
+  - first:
+      213: 8066948111822272152
+    second: cargo_104
+  - first:
+      213: -2608973611596129309
+    second: cargo_105
+  - first:
+      213: 7152040727873796421
+    second: cargo_106
+  - first:
+      213: -1535709660322835287
+    second: cargo_107
+  - first:
+      213: -3444646883106888126
+    second: cargo_108
+  - first:
+      213: -3790820486528209450
+    second: cargo_109
+  - first:
+      213: -6337191478114751557
+    second: cargo_110
+  - first:
+      213: 4828409103443247735
+    second: cargo_111
+  - first:
+      213: -6259014360285827668
+    second: cargo_112
+  - first:
+      213: -1563007378901012022
+    second: cargo_113
+  - first:
+      213: 2358518483581488807
+    second: cargo_114
+  - first:
+      213: -7924315320762156678
+    second: cargo_115
+  - first:
+      213: 7464580183296327749
+    second: cargo_116
+  - first:
+      213: 59518357093201341
+    second: cargo_117
+  - first:
+      213: -7937751068227062810
+    second: cargo_118
+  - first:
+      213: 2859691376414196640
+    second: cargo_119
+  - first:
+      213: 685293028010682892
+    second: cargo_120
+  - first:
+      213: -8255144876087768193
+    second: cargo_121
+  - first:
+      213: -1204988031989017234
+    second: cargo_122
+  - first:
+      213: -8402039628555873730
+    second: cargo_123
+  - first:
+      213: -4700100956406203518
+    second: cargo_124
+  - first:
+      213: 1005224045469336847
+    second: cargo_125
+  - first:
+      213: -5647328230682943498
+    second: cargo_126
+  - first:
+      213: -4622299553170492246
+    second: cargo_127
+  - first:
+      213: -4626491849748638837
+    second: cargo_128
+  - first:
+      213: 4968985754043994848
+    second: cargo_129
+  - first:
+      213: 8404540550962798460
+    second: cargo_130
+  - first:
+      213: -8038726652366200566
+    second: cargo_131
+  - first:
+      213: -2329528767425922433
+    second: CargoBox_0
+  - first:
+      213: 5664743110617028467
+    second: CargoBox_1
+  - first:
+      213: 9208297076961899141
+    second: CargoBox_3
+  - first:
+      213: 6644225971871424437
+    second: CargoBox_4
+  - first:
+      213: -1567296564495814285
+    second: CargoBox_5
+  - first:
+      213: -3399874143819423757
+    second: CargoBox_6
+  - first:
+      213: -5518113232480524107
+    second: CargoBox_7
+  - first:
+      213: 3861565543018847970
+    second: CargoBox_8
+  - first:
+      213: -5383284654094762719
+    second: CargoBox_9
+  - first:
+      213: 7723378283364902369
+    second: CargoBox_10
+  - first:
+      213: -2437690121194379581
+    second: CargoBox_11
+  - first:
+      213: -3102589324772168963
+    second: CargoBox_12
+  - first:
+      213: 3943884190493063337
+    second: CargoBox_14
+  - first:
+      213: -8334254232493171875
+    second: CargoBox_15
+  - first:
+      213: 5598492697731806275
+    second: CargoBox_16
+  - first:
+      213: -5642313250959726630
+    second: CargoBox_17
+  - first:
+      213: -6345993801928046744
+    second: CargoBox_18
+  - first:
+      213: 2321820832986962045
+    second: CargoBox_19
+  - first:
+      213: 6844403255836370726
+    second: CargoBox_20
+  - first:
+      213: -3406319260137454776
+    second: CargoBox_21
+  - first:
+      213: 7701143907672157915
+    second: CargoBox_22
+  - first:
+      213: -1296628274906993117
+    second: CargoBox_23
+  - first:
+      213: 7120139060121831606
+    second: CargoBox_24
+  - first:
+      213: 2159975971501181019
+    second: CargoBox_25
+  - first:
+      213: 4970630037061550000
+    second: CargoBox_26
+  - first:
+      213: -432353428877495127
+    second: CargoBox_27
+  - first:
+      213: 2510189239919359121
+    second: CargoBox_28
+  - first:
+      213: 4003944283093819433
+    second: CargoBox_29
+  - first:
+      213: -1114192815009060723
+    second: CargoBox_30
+  - first:
+      213: -884776211347436084
+    second: CargoBox_31
+  - first:
+      213: -1983957389084420319
+    second: CargoBox_32
+  - first:
+      213: -2747923755871206368
+    second: CargoBox_33
+  - first:
+      213: 7280293050892845413
+    second: CargoBox_34
+  - first:
+      213: -8903052400338465681
+    second: CargoBox_35
+  - first:
+      213: 2071275212488017069
+    second: CargoBox_36
+  - first:
+      213: 7251379194275603880
+    second: CargoBox_37
+  - first:
+      213: -1086886350657470377
+    second: CargoBox_38
+  - first:
+      213: 923803604548723130
+    second: CargoBox_39
+  - first:
+      213: 7673390200728875607
+    second: CargoBox_40
+  - first:
+      213: 7269948383513311809
+    second: CargoBox_41
+  - first:
+      213: -2135968283929468628
+    second: CargoBox_42
+  - first:
+      213: 4727711257614054289
+    second: CargoBox_43
+  - first:
+      213: 4546254473252278965
+    second: CargoBox_44
+  - first:
+      213: -5131737511648588767
+    second: CargoBox_45
+  - first:
+      213: -6860139419215007103
+    second: CargoBox_46
+  - first:
+      213: -5663523760257161121
+    second: CargoBox_47
+  - first:
+      213: 4818323401136947723
+    second: CargoBox_48
+  - first:
+      213: 2137549009501044030
+    second: CargoBox_49
+  - first:
+      213: -2037283076894220333
+    second: CargoBox_50
+  - first:
+      213: -106208396730185747
+    second: CargoBox_51
+  - first:
+      213: 157116276936682956
+    second: CargoBox_52
+  - first:
+      213: 8847228210726791061
+    second: CargoBox_53
+  - first:
+      213: -4844323906117781384
+    second: CargoBox_54
+  - first:
+      213: -5728676775015438950
+    second: CargoBox_55
+  - first:
+      213: -6971631485626840404
+    second: CargoBox_56
+  - first:
+      213: -1310235174957238287
+    second: CargoBox_57
+  - first:
+      213: 3993497851030438931
+    second: CargoBox_58
+  - first:
+      213: 154174064295996454
+    second: CargoBox_59
+  - first:
+      213: -3767512359908016042
+    second: CargoBox_60
+  - first:
+      213: -1716013439359797096
+    second: CargoBox_61
+  - first:
+      213: 8974151167508292539
+    second: CargoBox_62
+  - first:
+      213: -4326129736916484429
+    second: CargoBox_63
+  - first:
+      213: -8219502215063043521
+    second: CargoBox_64
+  - first:
+      213: 8632509945881260748
+    second: CargoBox_65
+  - first:
+      213: 3249571935541561914
+    second: CargoBox_66
+  - first:
+      213: 5290423238407646593
+    second: CargoBox_67
+  - first:
+      213: -2448265964878656975
+    second: CargoBox_68
+  - first:
+      213: -2433706171496756603
+    second: CargoBox_69
+  - first:
+      213: -1805325003902189273
+    second: CargoBox_70
+  - first:
+      213: 6875926530447822674
+    second: CargoBox_71
+  - first:
+      213: 3058981560920425880
+    second: CargoBox_72
+  - first:
+      213: 225857591319448240
+    second: CargoBox_73
+  - first:
+      213: -6191335669910148152
+    second: CargoBox_74
+  - first:
+      213: 1681574300557559913
+    second: CargoBox_75
+  - first:
+      213: -3940728996983842992
+    second: CargoBox_76
+  - first:
+      213: -8173808918597485589
+    second: CargoBox_77
+  - first:
+      213: 8374321686981586387
+    second: CargoBox_78
+  - first:
+      213: -4809252924473549565
+    second: CargoBox_79
+  - first:
+      213: -8009992419296728690
+    second: CargoBox_80
+  - first:
+      213: 7109832885867428167
+    second: CargoBox_81
+  - first:
+      213: 5892911863054784625
+    second: CargoBox_82
+  - first:
+      213: -5289262422134249536
+    second: CargoBox_83
+  - first:
+      213: 4433425478480982785
+    second: CargoBox_84
+  - first:
+      213: -662118190576732153
+    second: CargoBox_85
+  - first:
+      213: 7293765000715983116
+    second: CargoBox_86
+  - first:
+      213: 5706051311948198752
+    second: CargoBox_87
+  - first:
+      213: 5396967723841359681
+    second: CargoBox_88
+  - first:
+      213: -3828540034365094427
+    second: CargoBox_89
+  - first:
+      213: -1363613386763105346
+    second: CargoBox_90
+  - first:
+      213: 7795966840132369101
+    second: CargoBox_91
+  - first:
+      213: 1207226764196254497
+    second: CargoBox_92
+  - first:
+      213: 7461343503646497430
+    second: CargoBox_93
+  - first:
+      213: -8292772536691284283
+    second: CargoBox_94
+  - first:
+      213: -3940425375854281388
+    second: CargoBox_95
+  - first:
+      213: 708555707682753343
+    second: CargoBox_96
+  - first:
+      213: -4701691075209017115
+    second: CargoBox_97
+  - first:
+      213: -2501002178660770107
+    second: CargoBox_98
+  - first:
+      213: -5920174344770179142
+    second: CargoBox_99
+  - first:
+      213: 6592526046747653735
+    second: CargoBox_100
+  - first:
+      213: -1311950434980027402
+    second: CargoBox_101
+  - first:
+      213: -196223778405376933
+    second: CargoBox_102
+  - first:
+      213: -7704629210542687729
+    second: CargoBox_103
+  - first:
+      213: 587192517419272469
+    second: CargoBox_104
+  - first:
+      213: 5326486974771805271
+    second: CargoBox_105
+  - first:
+      213: -8336924081779933790
+    second: CargoBox_106
+  - first:
+      213: -7492426047043944405
+    second: CargoBox_107
+  - first:
+      213: 1861461830259185402
+    second: CargoBox_108
+  - first:
+      213: 6116336604714108150
+    second: CargoBox_109
+  - first:
+      213: 2377859135414241914
+    second: CargoBox_110
+  - first:
+      213: -3640098366593449863
+    second: CargoBox_111
+  - first:
+      213: -406034456893680434
+    second: CargoBox_112
+  - first:
+      213: -2010698451559313683
+    second: CargoBox_2
+  - first:
+      213: -8374676985013730033
+    second: CargoBox_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CargoBox_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a368bade9dbafd0800000000000000
+      internalID: -2329528767425922433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3775b2498d53d9e40800000000000000
+      internalID: 5664743110617028467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582f49267617acf70800000000000000
+      internalID: 9208297076961899141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf12dc9158053c50800000000000000
+      internalID: 6644225971871424437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37179871418df3ae0800000000000000
+      internalID: -1567296564495814285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff9b90ca7831d0d0800000000000000
+      internalID: -3399874143819423757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8ad935049bb63b0800000000000000
+      internalID: -5518113232480524107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eed684e669079530800000000000000
+      internalID: 3861565543018847970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dbed3012bba45b0800000000000000
+      internalID: -5383284654094762719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e56ee5e0a3fe2b60800000000000000
+      internalID: 7723378283364902369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6eabd00c59b2ed0800000000000000
+      internalID: -2437690121194379581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa2905827361f4d0800000000000000
+      internalID: -3102589324772168963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a83e9196cd7bb630800000000000000
+      internalID: 3943884190493063337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bd27caee7c65c80800000000000000
+      internalID: -8334254232493171875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3443ced4277d1bd40800000000000000
+      internalID: 5598492697731806275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7e0151ef972b1b0800000000000000
+      internalID: -5642313250959726630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8678f3972408ee7a0800000000000000
+      internalID: -6345993801928046744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d781a4efeb3c83020800000000000000
+      internalID: 2321820832986962045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62767ab7f743cfe50800000000000000
+      internalID: 6844403255836370726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8438feb2ea25ab0d0800000000000000
+      internalID: -3406319260137454776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde66f4e495ffda60800000000000000
+      internalID: 7701143907672157915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ee07c2473710ee0800000000000000
+      internalID: -1296628274906993117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b802f540c0dfc260800000000000000
+      internalID: 7120139060121831606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5805b8b3b6c9fd10800000000000000
+      internalID: 2159975971501181019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfb0f4eea93bf440800000000000000
+      internalID: 4970630037061550000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4b55ed8d8fff9f0800000000000000
+      internalID: -432353428877495127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_28
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194b66c60dbf5d220800000000000000
+      internalID: 2510189239919359121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_29
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92063469c1ed09730800000000000000
+      internalID: 4003944283093819433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_30
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88a71ab9879980f0800000000000000
+      internalID: -1114192815009060723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_31
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd8be839b4a8b3f0800000000000000
+      internalID: -884776211347436084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1279c1e14419774e0800000000000000
+      internalID: -1983957389084420319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_33
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024807537e96dd9d0800000000000000
+      internalID: -2747923755871206368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_34
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561863705fbc80560800000000000000
+      internalID: 7280293050892845413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_35
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c03252301027480800000000000000
+      internalID: -8903052400338465681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_36
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da48b68e4d5aebc10800000000000000
+      internalID: 2071275212488017069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_37
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5a47e25f212a460800000000000000
+      internalID: 7251379194275603880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_38
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75047d56f9a9ae0f0800000000000000
+      internalID: -1086886350657470377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_39
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab12a5bdb7202dc00800000000000000
+      internalID: 923803604548723130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75278617bbb5d7a60800000000000000
+      internalID: 7673390200728875607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_41
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a7cb6798b04e460800000000000000
+      internalID: 7269948383513311809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_42
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2122e0a9248b52e0800000000000000
+      internalID: -2135968283929468628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_43
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19373be17543c9140800000000000000
+      internalID: 4727711257614054289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_44
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29bb83b5a871f30800000000000000
+      internalID: 4546254473252278965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_45
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c83a91ce768c8b0800000000000000
+      internalID: -5131737511648588767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_46
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182f8087b83ebc0a0800000000000000
+      internalID: -6860139419215007103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_47
+      rect:
+        serializedVersion: 2
+        x: 6016
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5823ec852f1761b0800000000000000
+      internalID: -5663523760257161121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_48
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0248b1da9f1ed240800000000000000
+      internalID: 4818323401136947723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_49
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3c49bf791aad10800000000000000
+      internalID: 2137549009501044030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_50
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df1ec6e5dd1ab3e0800000000000000
+      internalID: -2037283076894220333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_51
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7cbb0a60ca68ef0800000000000000
+      internalID: -106208396730185747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_52
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd2e33eb603e2200800000000000000
+      internalID: 157116276936682956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_53
+      rect:
+        serializedVersion: 2
+        x: 6784
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5976f2bde2ba7ca70800000000000000
+      internalID: 8847228210726791061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_54
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878baeed21185ccb0800000000000000
+      internalID: -4844323906117781384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_55
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95ac2033d6af70b0800000000000000
+      internalID: -5728676775015438950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_56
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa8842e91acf3f90800000000000000
+      internalID: -6971631485626840404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_57
+      rect:
+        serializedVersion: 2
+        x: 7296
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7b370ec0c11dde0800000000000000
+      internalID: -1310235174957238287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_58
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31484f51321cb6730800000000000000
+      internalID: 3993497851030438931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_59
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ce0ff9e7cb32200800000000000000
+      internalID: 154174064295996454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_60
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6500ac4487b17bbc0800000000000000
+      internalID: -3767512359908016042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_61
+      rect:
+        serializedVersion: 2
+        x: 7808
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898b9256ede7f28e0800000000000000
+      internalID: -1716013439359797096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_62
+      rect:
+        serializedVersion: 2
+        x: 7936
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb32df390f69a8c70800000000000000
+      internalID: 8974151167508292539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_63
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beb6d2dcef76f3c0800000000000000
+      internalID: -4326129736916484429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_64
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3281a0c8467eed80800000000000000
+      internalID: -8219502215063043521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_65
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2774c0f06dcc770800000000000000
+      internalID: 8632509945881260748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_66
+      rect:
+        serializedVersion: 2
+        x: 8448
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a880a557cc81d20800000000000000
+      internalID: 3249571935541561914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_67
+      rect:
+        serializedVersion: 2
+        x: 8576
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d62ccc7eb5b6940800000000000000
+      internalID: 5290423238407646593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_68
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a8abf8313060ed0800000000000000
+      internalID: -2448265964878656975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_69
+      rect:
+        serializedVersion: 2
+        x: 8832
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a8240a12db93ed0800000000000000
+      internalID: -2433706171496756603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_70
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7218746597232f6e0800000000000000
+      internalID: -1805325003902189273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_71
+      rect:
+        serializedVersion: 2
+        x: 9088
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fc60dcfb23c6f50800000000000000
+      internalID: 6875926530447822674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_72
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895c121c58fa37a20800000000000000
+      internalID: 3058981560920425880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_73
+      rect:
+        serializedVersion: 2
+        x: 9344
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bacb6c5848622300800000000000000
+      internalID: 225857591319448240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_74
+      rect:
+        serializedVersion: 2
+        x: 9472
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbecc5e205f31aa0800000000000000
+      internalID: -6191335669910148152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_75
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968c820cae6265710800000000000000
+      internalID: 1681574300557559913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_76
+      rect:
+        serializedVersion: 2
+        x: 9728
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05752ba2bd7bf49c0800000000000000
+      internalID: -3940728996983842992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_77
+      rect:
+        serializedVersion: 2
+        x: 9856
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebb311681cc09e80800000000000000
+      internalID: -8173808918597485589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_78
+      rect:
+        serializedVersion: 2
+        x: 9984
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd236b8431973470800000000000000
+      internalID: 8374321686981586387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_79
+      rect:
+        serializedVersion: 2
+        x: 10112
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ddeb912f9124db0800000000000000
+      internalID: -4809252924473549565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_80
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e892f3a555ac6d090800000000000000
+      internalID: -8009992419296728690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_81
+      rect:
+        serializedVersion: 2
+        x: 10368
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749b48617533ba260800000000000000
+      internalID: 7109832885867428167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_82
+      rect:
+        serializedVersion: 2
+        x: 10496
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178d0121e14d7c150800000000000000
+      internalID: 5892911863054784625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_83
+      rect:
+        serializedVersion: 2
+        x: 10624
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7addcc9d3c896b0800000000000000
+      internalID: -5289262422134249536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_84
+      rect:
+        serializedVersion: 2
+        x: 10752
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103760fbbf0b68d30800000000000000
+      internalID: 4433425478480982785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_85
+      rect:
+        serializedVersion: 2
+        x: 10880
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7087953830fafc6f0800000000000000
+      internalID: -662118190576732153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_86
+      rect:
+        serializedVersion: 2
+        x: 11008
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c095ad6cf98a83560800000000000000
+      internalID: 7293765000715983116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_87
+      rect:
+        serializedVersion: 2
+        x: 11136
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f2deaf67ff2f40800000000000000
+      internalID: 5706051311948198752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_88
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f00dbec81e5ea40800000000000000
+      internalID: 5396967723841359681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_89
+      rect:
+        serializedVersion: 2
+        x: 11392
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e58e4b8f1b4edac0800000000000000
+      internalID: -3828540034365094427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_90
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb840779d8731de0800000000000000
+      internalID: -1363613386763105346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_91
+      rect:
+        serializedVersion: 2
+        x: 11648
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca70da4986d03c60800000000000000
+      internalID: 7795966840132369101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_92
+      rect:
+        serializedVersion: 2
+        x: 11776
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123134b885ee0c010800000000000000
+      internalID: 1207226764196254497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_93
+      rect:
+        serializedVersion: 2
+        x: 11904
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a940a72640c8760800000000000000
+      internalID: 7461343503646497430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_94
+      rect:
+        serializedVersion: 2
+        x: 12032
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6a66b90572aec80800000000000000
+      internalID: -8292772536691284283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_95
+      rect:
+        serializedVersion: 2
+        x: 12160
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d35487ffbc059c0800000000000000
+      internalID: -3940425375854281388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_96
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b810c79ab45d900800000000000000
+      internalID: 708555707682753343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_97
+      rect:
+        serializedVersion: 2
+        x: 12416
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ca82b0ec30ceb0800000000000000
+      internalID: -4701691075209017115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_98
+      rect:
+        serializedVersion: 2
+        x: 12544
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce5276f4c7aa4dd0800000000000000
+      internalID: -2501002178660770107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_99
+      rect:
+        serializedVersion: 2
+        x: 12672
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfa793ccc057dda0800000000000000
+      internalID: -5920174344770179142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_100
+      rect:
+        serializedVersion: 2
+        x: 12800
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76677e4c28b5d7b50800000000000000
+      internalID: 6592526046747653735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_101
+      rect:
+        serializedVersion: 2
+        x: 12928
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3a818c7040bcde0800000000000000
+      internalID: -1311950434980027402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_102
+      rect:
+        serializedVersion: 2
+        x: 13056
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c99af538fd64df0800000000000000
+      internalID: -196223778405376933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_103
+      rect:
+        serializedVersion: 2
+        x: 13184
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a318bcd88a31590800000000000000
+      internalID: -7704629210542687729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_104
+      rect:
+        serializedVersion: 2
+        x: 13312
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5190b87cb70262800800000000000000
+      internalID: 587192517419272469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_105
+      rect:
+        serializedVersion: 2
+        x: 13440
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cb400ceab7be940800000000000000
+      internalID: 5326486974771805271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_106
+      rect:
+        serializedVersion: 2
+        x: 13568
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad7b12f7bb4d4c80800000000000000
+      internalID: -8336924081779933790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_107
+      rect:
+        serializedVersion: 2
+        x: 13696
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20cf00f43e850890800000000000000
+      internalID: -7492426047043944405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_108
+      rect:
+        serializedVersion: 2
+        x: 13824
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af61c831cad35d910800000000000000
+      internalID: 1861461830259185402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_109
+      rect:
+        serializedVersion: 2
+        x: 13952
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f404ba7cb791e450800000000000000
+      internalID: 6116336604714108150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_110
+      rect:
+        serializedVersion: 2
+        x: 14080
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a8844094adff020800000000000000
+      internalID: 2377859135414241914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee016459609814e0800000000000000
+      internalID: -2010698451559313683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CargoBox_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f050e9f27ab27cb80800000000000000
+      internalID: -8374676985013730033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

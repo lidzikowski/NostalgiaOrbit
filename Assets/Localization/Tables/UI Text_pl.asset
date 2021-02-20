@@ -1,0 +1,564 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Text_pl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: a9679abef314a6b4ca21779f61996d1b, type: 2}
+  m_Metadata:
+    m_Items:
+    - id: 0
+    - id: 1
+    - id: 2
+    - id: 3
+    - id: 4
+    - id: 5
+    - id: 6
+    - id: 7
+    - id: 8
+    - id: 9
+    - id: 10
+    - id: 11
+    - id: 12
+    - id: 13
+    - id: 14
+    - id: 15
+    - id: 16
+    - id: 17
+    - id: 18
+    - id: 19
+    - id: 20
+    - id: 21
+    - id: 22
+    - id: 23
+    - id: 24
+    - id: 25
+    - id: 26
+    - id: 27
+  m_TableData:
+  - m_Id: 9459937280
+    m_Localized: 'Teraz online:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232097787904
+    m_Localized: 'Zarejestrowanych:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8120736362496
+    m_Localized: LOGOWANIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8311845629952
+    m_Localized: "Nazwa u\u017Cytkownika"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8400513216512
+    m_Localized: "Has\u0142o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9390486401024
+    m_Localized: "Zapomnia\u0142e\u015B has\u0142a?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16253001084928
+    m_Localized: Zarejestruj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16560691032064
+    m_Localized: Zaloguj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30353722650624
+    m_Localized: Graj teraz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31838669844480
+    m_Localized: "DarkOrbit - Najlepsza strzelanka kosmiczna\n\n          * Zagraj
+      teraz przeciwko prawdziwym graczom\n          * Du\u017Co akcji i zabawy\n         
+      * Stara grafika bez technologii flash"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41974163517440
+    m_Localized: Biuletyn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42137456160768
+    m_Localized: Wideo z gry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42346806456320
+    m_Localized: Zwiastun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205179796008960
+    m_Localized: "<b>Szybkie po\u015Bcigi kosmiczne i ekscytuj\u0105ce misje czekaj\u0105
+      na Ciebie w DarkOrbit!</b>\r\n\r\n<b>DarkOrbit nie jest zwyk\u0142\u0105 gr\u0105:</b>\r\nTo
+      pe\u0142na akcji kosmiczna strzelanka dla wielu graczy w czasie rzeczywistym.\n\r\nZg\u0142o\u015B
+      si\u0119 do s\u0142u\u017Cby, kosmiczny pilocie!\n\r\n     * Do\u0142\u0105cz
+      do firmy Earth, Mars lub Venus\n     * Wybierz jeden z r\xF3\u017Cnych statk\xF3w
+      kosmicznych\n     * Rywalizuj w niebezpiecznych galaktycznych bitwach samotnie
+      lub w sojuszu\n     * Zbieraj cenne surowce\n     * Wyb\xF3r du\u017Cego arsena\u0142u
+      broni i wyposa\u017Cenia\n     * Poluj na wrog\xF3w w przestrzeni\n\r\nWspinaj
+      si\u0119 na szczyt swojej firmy i podbij ostatni\u0105 granic\u0119. DarkOrbit
+      posiada mn\xF3stwo <b>akcji</b> i ekscytuj\u0105cej rozgrywki.\n\r\n<b>Uruchom
+      silniki!</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209767836102656
+    m_Localized: "Potwierd\u017A has\u0142o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210180970852352
+    m_Localized: E-mail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211127063228416
+    m_Localized: Serwer gry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212550916190208
+    m_Localized: <b><u>Zasady</u></b> przeczytane i zaakceptowane.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213769499914240
+    m_Localized: "Zapisz si\u0119 do biuletynu informacji"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217095041921024
+    m_Localized: "Powr\xF3t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218554886205440
+    m_Localized: "<b>Czy zapomnia\u0142e\u015B danych logowania?</b>\r\n\r\nCzy jeste\u015B
+      zarejestrowanym u\u017Cytkownikiem, ale zapomnia\u0142e\u015B lub zgubi\u0142e\u015B
+      swoje dane logowania?\r\n\r\nWprowad\u017A tutaj swoj\u0105 <b>nazw\u0119 u\u017Cytkownika</b>
+      lub <b>adres e-mail</b> a wy\u015Blemy Ci ponownie has\u0142o.\r\nJe\u015Bli
+      masz inne pytania, mo\u017Cesz w ka\u017Cdej chwili skontaktowa\u0107 si\u0119
+      z naszym dzia\u0142em pomocy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219719367602176
+    m_Localized: "Nazwa u\u017Cytkownika lub adres e-mail"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220478490488832
+    m_Localized: "Wy\u015Blij"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281301434970112
+    m_Localized: Pole jest wymagane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308351906557952
+    m_Localized: "Aby przetrwa\u0107 w kosmosie, potrzebujesz sojusznika. ka\u017Cda
+      z trzech du\u017Cych firm oferuje ci prac\u0119 oraz specjalny statek. warunki
+      s\u0105 takie same w ka\u017Cdej firmie. jednak ka\u017Cdy z nich ma swoj\u0105
+      w\u0142asn\u0105 charakterystyk\u0119. kt\xF3ry z nich wybierzesz?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310227137933312
+    m_Localized: "Nie b\u0119d\u0119 Ci opowiada\u0107 \u017Cadnych bzdur, lecz przejd\u0119
+      od razu do sedna sprawy. My, to znaczy firma Mars Mining Operations, potrzebujemy
+      Ciebie z dw\xF3ch powod\xF3w: aby\u015B zbiera\u0142 surowce, da\u0142 nie\u017Ale
+      popali\u0107 tym cholernym obcym i przep\u0119dzi\u0142 ich z naszego galaktycznego
+      sektora. Wyka\u017C si\u0119 sprytem i poka\u017C co potrafisz, a ju\u017C
+      niebawem b\u0119dziesz m\xF3g\u0142 pogoni\u0107 tak\u017Ce kilku wrogich pilot\xF3w."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310469476429824
+    m_Localized: "Kosmiczny pilocie, \u017Cyjemy w trudnych czasach i tylko ludzie
+      z nerwami ze stali i najtwardszymi pi\u0119\u015Bciami maj\u0105 szans\u0119
+      przetrwa\u0107. Jak wielka jest Twoja odwaga? Nagradzamy lojalno\u015B\u0107
+      i pos\u0142usze\u0144stwo najlepszymi laserami, jakie mo\u017Cna dosta\u0107
+      za uridium. Przy\u0142\u0105cz si\u0119 do nas, a pozb\u0119dziemy si\u0119
+      razem tych obcych z naszego sektora. W imi\u0119 honoru i sprawiedliwo\u015Bci!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310552477511680
+    m_Localized: "Jeste\u015Bmy sami dumni z naszej zdolno\u015Bci do korzystania
+      z post\u0119pu technicznego i jednoczesnego zachowywania solidarno\u015Bci.
+      Niekt\xF3rzy uwa\u017Caj\u0105 nas za kult, kt\xF3ry chce zdominowa\u0107 ca\u0142\u0105
+      galaktyk\u0119, ale oni po prostu nie rozumiej\u0105 genialno\u015Bci naszych
+      plan\xF3w. Utalentowani piloci, kt\xF3rzy niszcz\u0105 naszych wrog\xF3w i
+      ratuj\u0105 przysz\u0142o\u015B\u0107 ludzko\u015Bci, s\u0105 zawsze mile widziani
+      w naszej rodzinie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 311098353594368
+    m_Localized: "Potwierd\u017A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328779735707648
+    m_Localized: Nazwa pilota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576707037442048
+    m_Localized: WYLOGUJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576834611392512
+    m_Localized: FORUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578492212916224
+    m_Localized: HOME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579017218142208
+    m_Localized: HANGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579607914557440
+    m_Localized: HANDEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579924567732224
+    m_Localized: LABOLATORIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581673969987584
+    m_Localized: KLAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581880669483008
+    m_Localized: URIDIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582166586798080
+    m_Localized: ZADANIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583042533634048
+    m_Localized: POMOC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584533138944000
+    m_Localized: 'GWIEZDNE
+
+      WROTA'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 585563465527296
+    m_Localized: START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595936109342720
+    m_Localized: "ID U\u017BYTKOWNIKA:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596287508131840
+    m_Localized: "DO\u015AWIADCZENIE:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596451127930880
+    m_Localized: 'POZIOM:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598129952632832
+    m_Localized: 'JACKPOT:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598203625582592
+    m_Localized: 'KREDYTY:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598297527660544
+    m_Localized: 'URIDIUM:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598889494949888
+    m_Localized: ONLINE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730359731531776
+    m_Localized: "WYPOSA\u017BENIE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730559728529408
+    m_Localized: STATKI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730663805988864
+    m_Localized: DRONY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730754079993856
+    m_Localized: BRONIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730993092407296
+    m_Localized: AMUNICJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731070452150272
+    m_Localized: GENERATORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731680878571520
+    m_Localized: DODATKI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731331685986304
+    m_Localized: "PRZEGL\u0104D"
+    m_Metadata:
+      m_Items:
+      - id: 28
+  - m_Id: 732499325693952
+    m_Localized: WZMACNIACZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732731203596288
+    m_Localized: DESIGNS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767208097263616
+    m_Localized: 'Nazwa pilota:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767364284755968
+    m_Localized: 'Serwer:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767460036521984
+    m_Localized: 'Ranga:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767561874223104
+    m_Localized: 'Premium:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767800953745408
+    m_Localized: 'Firma:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767913436590080
+    m_Localized: 'Aktualna mapa:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 768118189928448
+    m_Localized: 'Zarejestrowany:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 768326525202432
+    m_Localized: 'Poziom:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776879054991360
+    m_Localized: "Sala s\u0142awy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 777718280695808
+    m_Localized: "Zmie\u0144 dane u\u017Cytkownika"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 967382597840896
+    m_Localized: krazownik wojenny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 969396505489408
+    m_Localized: LASERY
+    m_Metadata:
+      m_Items:
+      - id: 29
+  - m_Id: 969528810614784
+    m_Localized: BATERIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 969604714934272
+    m_Localized: RAKIETY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 979383382388736
+    m_Localized: PREDKOSC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 979826229587968
+    m_Localized: POSZYCIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996408938934272
+    m_Localized: POSZYCIE STATKU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 998336892710912
+    m_Localized: GENERATORY PREDKOSCI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 998612504621056
+    m_Localized: GENERATORY OSLON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 998814347112448
+    m_Localized: OBRAZENIA POSZYCIE/OSLONA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999213082816512
+    m_Localized: DRONY [FLAX/IRYS]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067930655338496
+    m_Localized: '<b>Naprawa</b>
+
+      wymagana'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068063488946176
+    m_Localized: darmowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1080947480670208
+    m_Localized: MYSLIWIEC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081676685586432
+    m_Localized: ODRZUTOWIEC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1466649808678912
+    m_Localized: "Nazwa u\u017Cytkownika jest zaj\u0119ta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1466827269681152
+    m_Localized: "Adres e-mail jest zaj\u0119ty"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1466935667273728
+    m_Localized: "Nazwa pilota jest zaj\u0119ta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9334406692679680
+    m_Localized: statek specjalny
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00305b8189210200
+    00000001:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00309b64ce210200
+    00000002:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030db32bc210200
+    00000003:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301bf7e3210200
+    00000004:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b6ef3210200
+    00000005:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00305b6b02220200
+    00000006:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00309bca10220200
+    00000007:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00305b6d24990200
+    00000008:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00305b36a9710300
+    00000009:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b68f8d30300
+    0000000A:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030db1ec6d40300
+    0000000B:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b59e8d40300
+    0000000C:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b8cf6d40300
+    0000000D:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00309b7703d50300
+    0000000E:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030db3a0fd50300
+    0000000F:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030db5323d50300
+    00000010:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00305ba233d50300
+    00000011:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030db4e44d50300
+    00000012:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030db1b51d50300
+    00000013:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00309b36d6d40300
+    00000014:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b636ca00400
+    00000015:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b3380a00400
+    00000016:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b5693a00400
+    00000017:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00309bcfaca00400
+    00000018:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b03bfa00400
+    00000019:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301b82d4a00400
+    0000001A:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030dbf2e4a00400
+    0000001B:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00301be9fba00400
+    0000001C:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00305b6d24990200
+    0000001D:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00305b36a9710300

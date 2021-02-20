@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-StringTables
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-StringTables
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a1d1ffe96b102184eb1f860a42b663c7
+  m_SerializeEntries:
+  - m_GUID: 0e7c35ec15f069d4e937f6d6e86f3713
+    m_Address: Newsletters_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 11400000, guid: 0e7c35ec15f069d4e937f6d6e86f3713, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 0e7c35ec15f069d4e937f6d6e86f3713, type: 2}
+  - m_GUID: 646c201c6f710cd439b2f6b796f79d1f
+    m_Address: Newsletters_pl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pl
+    m_MainAsset: {fileID: 11400000, guid: 646c201c6f710cd439b2f6b796f79d1f, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 646c201c6f710cd439b2f6b796f79d1f, type: 2}
+  - m_GUID: 378fcc81603f0534fbe0ff9daf8bc027
+    m_Address: UI Text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 11400000, guid: 378fcc81603f0534fbe0ff9daf8bc027, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 378fcc81603f0534fbe0ff9daf8bc027, type: 2}
+  - m_GUID: 5f1ae6d405ac80248ab1173ff8fe436d
+    m_Address: UI Text_pl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pl
+    m_MainAsset: {fileID: 11400000, guid: 5f1ae6d405ac80248ab1173ff8fe436d, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 5f1ae6d405ac80248ab1173ff8fe436d, type: 2}
+  - m_GUID: 699b6e2ee2985894eb90c45395c596df
+    m_Address: UI Game_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 11400000, guid: 699b6e2ee2985894eb90c45395c596df, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 699b6e2ee2985894eb90c45395c596df, type: 2}
+  - m_GUID: d24c1c2a8cfd6174ab6c45adc2829668
+    m_Address: UI Game_pl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pl
+    m_MainAsset: {fileID: 11400000, guid: d24c1c2a8cfd6174ab6c45adc2829668, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: d24c1c2a8cfd6174ab6c45adc2829668, type: 2}
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b574194f29479874e8b4d66e1dbf3da1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e67e3818c081f7540afc3090be90a98b, type: 2}
+    - {fileID: 11400000, guid: aba2516779d8a6443aedfbc5ec4498ec, type: 2}

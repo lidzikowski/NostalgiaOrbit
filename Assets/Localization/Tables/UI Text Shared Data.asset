@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Text
+  m_TableCollectionNameGuidString: a9679abef314a6b4ca21779f61996d1b
+  m_Entries:
+  - m_Id: 9459937280
+    m_Key: now online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232097787904
+    m_Key: registered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8120736362496
+    m_Key: login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8311845629952
+    m_Key: username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8400513216512
+    m_Key: password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9390486401024
+    m_Key: forgot password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16253001084928
+    m_Key: register
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16560691032064
+    m_Key: log it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30353722650624
+    m_Key: play now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31838669844480
+    m_Key: footer information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41974163517440
+    m_Key: newsletter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42137456160768
+    m_Key: in game video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42346806456320
+    m_Key: trailer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205179796008960
+    m_Key: registered information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209767836102656
+    m_Key: confirm password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210180970852352
+    m_Key: email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211127063228416
+    m_Key: game server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212550916190208
+    m_Key: rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213769499914240
+    m_Key: subscribe newsletter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217095041921024
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218554886205440
+    m_Key: forgot information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219719367602176
+    m_Key: username or email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220478490488832
+    m_Key: submit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281301434970112
+    m_Key: field required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308351906557952
+    m_Key: company information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310227137933312
+    m_Key: mmo company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310469476429824
+    m_Key: eic company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310552477511680
+    m_Key: vru company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 311098353594368
+    m_Key: confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328779735707648
+    m_Key: pilot name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576707037442048
+    m_Key: logout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576834611392512
+    m_Key: forum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578492212916224
+    m_Key: home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579017218142208
+    m_Key: hangar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579607914557440
+    m_Key: trade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579924567732224
+    m_Key: laboratory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581673969987584
+    m_Key: clan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581880669483008
+    m_Key: uridium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582166586798080
+    m_Key: quests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583042533634048
+    m_Key: help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584533138944000
+    m_Key: galaxy gates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 585563465527296
+    m_Key: start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595936109342720
+    m_Key: header_user id
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596287508131840
+    m_Key: header_experience
+    m_Metadata:
+      m_Items: []
+  - m_Id: 596451127930880
+    m_Key: header_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598129952632832
+    m_Key: header_jackpot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598203625582592
+    m_Key: header_credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598297527660544
+    m_Key: header_uridium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 598889494949888
+    m_Key: header_online users
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730359731531776
+    m_Key: equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730559728529408
+    m_Key: ships
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730663805988864
+    m_Key: drones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730754079993856
+    m_Key: weapons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730993092407296
+    m_Key: ammunitions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731070452150272
+    m_Key: generators
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731331685986304
+    m_Key: overview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731680878571520
+    m_Key: extras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732499325693952
+    m_Key: boosters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732731203596288
+    m_Key: designs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767208097263616
+    m_Key: nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767364284755968
+    m_Key: server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767460036521984
+    m_Key: rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767561874223104
+    m_Key: premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767800953745408
+    m_Key: company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767913436590080
+    m_Key: actual map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 768118189928448
+    m_Key: register date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 768326525202432
+    m_Key: level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776879054991360
+    m_Key: hall of fame ranking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 777718280695808
+    m_Key: change user data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 967382597840896
+    m_Key: battlecruiser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 969396505489408
+    m_Key: lasers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 969528810614784
+    m_Key: batteries
+    m_Metadata:
+      m_Items: []
+  - m_Id: 969604714934272
+    m_Key: rockets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 979383382388736
+    m_Key: speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 979826229587968
+    m_Key: hitpoints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996408938934272
+    m_Key: ship hitpoints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 998336892710912
+    m_Key: speed generators
+    m_Metadata:
+      m_Items: []
+  - m_Id: 998612504621056
+    m_Key: shield generators
+    m_Metadata:
+      m_Items: []
+  - m_Id: 998814347112448
+    m_Key: hitpoints shield damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999213082816512
+    m_Key: drones equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067930655338496
+    m_Key: repair necessary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068063488946176
+    m_Key: repair price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1080947480670208
+    m_Key: starfighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081676685586432
+    m_Key: starjet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1466649808678912
+    m_Key: username occupied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1466827269681152
+    m_Key: email occupied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1466935667273728
+    m_Key: pilotname occupied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9334406692679680
+    m_Key: specialship
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1611006073602

@@ -440,6 +440,60 @@ MonoBehaviour:
     m_Localized: statek specjalny
     m_Metadata:
       m_Items: []
+  - m_Id: 12174229887463424
+    m_Localized: Konfiguracja 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12174325387571200
+    m_Localized: Konfiguracja 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12174475791118336
+    m_Localized: Statki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12175128349323264
+    m_Localized: STATEK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12175255021498368
+    m_Localized: Drony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12900012184514560
+    m_Localized: Aktualny obszar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13247867487203328
+    m_Localized: "Pr\u0119dko\u015B\u0107:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249816458637312
+    m_Localized: 'Poszycie:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249874222592000
+    m_Localized: "\u0141adownia:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249985245818880
+    m_Localized: 'Lasery:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13250069802987520
+    m_Localized: 'Dodatki:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13250121392926720
+    m_Localized: 'Generatory:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13272656578818048
+    m_Localized: 'Bonus na mapach
+
+      x-1, x-2, x-3, x-4'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
     00000000:

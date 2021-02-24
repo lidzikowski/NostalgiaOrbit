@@ -1,6 +1,5 @@
 using NostalgiaOrbitDLL;
 using NostalgiaOrbitDLL.Core;
-using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -39,7 +38,6 @@ public class HomeScreen : MonoBehaviour
 
         //RankSprite
         Rank.text = pilot.RankType.ToString(); // Language
-        StartCoroutine(UpdateRankTextSize());
 
         Premium.text = pilot.PremiumStatus.ToString(); // Language
 
@@ -50,13 +48,7 @@ public class HomeScreen : MonoBehaviour
         Map.text = pilot.Map.GetMapName();
 
         Registered.text = pilot.RegisterDate.ToString();
-    }
 
-    private IEnumerator UpdateRankTextSize()
-    {
-        var go = Rank.gameObject.transform.parent.GetComponent<HorizontalLayoutGroup>();
-        go.enabled = false;
-        yield return new WaitForEndOfFrame();
-        go.enabled = true;
+        Helpers.RefreshUI(transform);
     }
 }

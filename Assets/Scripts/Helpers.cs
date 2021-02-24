@@ -1,13 +1,17 @@
 ﻿using NostalgiaOrbitDLL;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
+using UnityEngine.UI;
 
 public static class Helpers
 {
     private static Dictionary<PrefabTypes, Sprite[]> spriteCache = new Dictionary<PrefabTypes, Sprite[]>();
     private static Dictionary<PrefabTypes, GameObject> prefabCache = new Dictionary<PrefabTypes, GameObject>();
     private static Dictionary<ResourceTypes, GameObject> resourceCache = new Dictionary<ResourceTypes, GameObject>();
+    private static Dictionary<ItemTypes, Texture> InventoryTextureCache = new Dictionary<ItemTypes, Texture>();
 
     public static Sprite[] LoadSpritesResource(PrefabTypes resource)
     {
@@ -48,6 +52,16 @@ public static class Helpers
         return map;
     }
 
+    public static Texture LoadInventoryTextureResource(ItemTypes resource)
+    {
+        if (!InventoryTextureCache.ContainsKey(resource))
+            InventoryTextureCache.Add(resource, Resources.Load<Texture>($"ui/items/{resource}"));
+
+        Debug.Log($"Załadowano inventory texture '{resource}'");
+
+        return InventoryTextureCache[resource];
+    }
+
     public static void DestroyAllChilds(Transform transform)
     {
         foreach (Transform child in transform)
@@ -67,5 +81,10 @@ public static class Helpers
             nfi.NumberGroupSeparator = " ";
             return nfi;
         }
+    }
+
+    public static void RefreshUI(Transform transform)
+    {
+        LayoutRebuilder.ForceRebuildLayoutImmediate(transform.GetComponent<RectTransform>());
     }
 }

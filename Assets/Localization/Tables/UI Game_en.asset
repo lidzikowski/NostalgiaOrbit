@@ -118,5 +118,13 @@ MonoBehaviour:
     m_Localized: seconds
     m_Metadata:
       m_Items: []
+  - m_Id: 10815912212639744
+    m_Localized: buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10816158799966208
+    m_Localized: auction
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

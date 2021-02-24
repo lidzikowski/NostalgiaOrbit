@@ -441,6 +441,60 @@ MonoBehaviour:
     m_Localized: special ship
     m_Metadata:
       m_Items: []
+  - m_Id: 12174229887463424
+    m_Localized: Configuration 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12174325387571200
+    m_Localized: Configuration 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12174475791118336
+    m_Localized: Ships
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12175128349323264
+    m_Localized: SPACESHIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12175255021498368
+    m_Localized: Drones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12900012184514560
+    m_Localized: Current area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13247867487203328
+    m_Localized: 'Speed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249816458637312
+    m_Localized: 'Hitpoints:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249874222592000
+    m_Localized: 'Cargo:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249985245818880
+    m_Localized: 'Lasers:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13250069802987520
+    m_Localized: 'Extras:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13250121392926720
+    m_Localized: 'Generators:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13272656578818048
+    m_Localized: 'Bonus on map
+
+      x-1, x-2, x-3, x-4'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
     00000000:

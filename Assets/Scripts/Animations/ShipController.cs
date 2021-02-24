@@ -412,14 +412,13 @@ public class ShipController : MonoBehaviour
 
         if (response.ResourceType.HasValue)
         {
-            bool isRocket = DLLHelpers.IsRocketType(response.ResourceType.Value);
-            if (!isRocket)
+            if (!DLLHelpers.IsRocketType(response.ResourceType.Value))
                 AmmunitionAttackSelectedObject = response.ResourceType.HasValue;
 
             var bullet = Instantiate(Helpers.LoadPrefabResource(response.ResourceType.Value), bulletTransform);
             var bulletController = bullet.GetComponent<BulletController>();
 
-            bulletController.Setup(Position, SelectedMapObject.gameObject, isRocket);
+            bulletController.Setup(Position, SelectedMapObject.gameObject, response.ResourceType.Value);
         }
     }
 }

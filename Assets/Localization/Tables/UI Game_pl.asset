@@ -118,5 +118,13 @@ MonoBehaviour:
     m_Localized: sekund
     m_Metadata:
       m_Items: []
+  - m_Id: 10815912212639744
+    m_Localized: kup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10816158799966208
+    m_Localized: aukcja
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

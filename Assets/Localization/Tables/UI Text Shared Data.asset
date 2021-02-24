@@ -367,6 +367,58 @@ MonoBehaviour:
     m_Key: specialship
     m_Metadata:
       m_Items: []
+  - m_Id: 12174229887463424
+    m_Key: config1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12174325387571200
+    m_Key: config2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12174475791118336
+    m_Key: user_ships
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12175128349323264
+    m_Key: spaceship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12175255021498368
+    m_Key: user_drones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12900012184514560
+    m_Key: current area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13247867487203328
+    m_Key: shop_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249816458637312
+    m_Key: shop_hitpoints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249874222592000
+    m_Key: shop_cargo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13249985245818880
+    m_Key: shop_lasers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13250069802987520
+    m_Key: shop_extras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13250121392926720
+    m_Key: shop_generators
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13272656578818048
+    m_Key: shop_bonus
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

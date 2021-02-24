@@ -115,6 +115,14 @@ MonoBehaviour:
     m_Key: seconds
     m_Metadata:
       m_Items: []
+  - m_Id: 10815912212639744
+    m_Key: shop_buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10816158799966208
+    m_Key: shop_auction
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using NostalgiaOrbitDLL;
+using NostalgiaOrbitDLL.Core;
+using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
@@ -21,6 +23,7 @@ public class BulletController : MonoBehaviour
     private bool destroy;
     private bool hidden;
     private bool IsRocket;
+    private bool IsAmmunition;
 
     private void Start()
     {
@@ -35,15 +38,14 @@ public class BulletController : MonoBehaviour
 
         var tPos = TargetPosition;
 
-        if (transform.position != tPos)
+        if (Vector2.Distance(transform.position, tPos) > 1)
         {
             float angle = Mathf.Atan2(tPos.y - transform.position.y, tPos.x - transform.position.x);
             transform.rotation = Quaternion.Euler(0, 0, angle * Mathf.Rad2Deg + 180);
 
-            if (IsRocket)
-                lifeTime += Time.deltaTime;
+            lifeTime += Time.deltaTime * 2;
 
-            transform.position = Vector3.MoveTowards(transform.position, tPos, Time.deltaTime * (IsRocket ? lifeTime * 25 : 50));
+            transform.position = Vector3.MoveTowards(transform.position, tPos, (Time.deltaTime * (IsRocket ? 20 : IsAmmunition ? 200 : 50)) * lifeTime);
         }
         else if (!hidden)
         {
@@ -68,11 +70,12 @@ public class BulletController : MonoBehaviour
         }
     }
 
-    public void Setup(Vector3 startPosition, GameObject targetGameObject, bool isAmmunition)
+    public void Setup(Vector3 startPosition, GameObject targetGameObject, ResourceTypes resource)
     {
         transform.position = startPosition;
         TargetGameObject = targetGameObject;
-        IsRocket = isAmmunition;
+        IsRocket = DLLHelpers.IsRocketType(resource);
+        IsAmmunition = DLLHelpers.IsAmmunitionType(resource);
 
         setup = true;
     }

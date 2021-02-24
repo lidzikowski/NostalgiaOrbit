@@ -1,16 +1,29 @@
 using NostalgiaOrbitDLL;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class HangarScreen : MonoBehaviour
 {
+    [Header("Current area")]
+    [SerializeField]
+    public TMP_Text CurrentAreaText;
+
+    [Header("HOME")]
     [SerializeField]
     public GameObject HomeScreen;
 
+    [Header("HANGAR")]
+    [SerializeField]
+    public GameObject HangarLeftScreen;
+
+    [Header("HANGAR - Bookmarks")]
     [SerializeField]
     public GameObject OverwievScreen;
     [SerializeField]
-    public GameObject HangarLeftScreen;
+    public GameObject EquipmentScreen;
+    [SerializeField]
+    public GameObject ShopScreen;
 
 
     private void Start()
@@ -28,6 +41,8 @@ public class HangarScreen : MonoBehaviour
     {
         DisableAll();
 
+        CurrentAreaText.text = screen.ToString();
+
         switch (screen)
         {
             case HangarScreens.home:
@@ -38,24 +53,25 @@ public class HangarScreen : MonoBehaviour
                 HangarLeftScreen.SetEnable();
                 OverwievScreen.SetEnable(true);
                 break;
+
             case HangarScreens.equipment:
+                HangarLeftScreen.SetEnable();
+                EquipmentScreen.GetComponent<HangarEquipmentScreen>().Click();
+                EquipmentScreen.SetEnable(true);
                 break;
+
             case HangarScreens.ships:
-                break;
             case HangarScreens.drones:
-                break;
             case HangarScreens.weapons:
-                break;
             case HangarScreens.ammunitions:
-                break;
             case HangarScreens.generators:
-                break;
             case HangarScreens.extras:
-                break;
             case HangarScreens.boosters:
-                break;
             case HangarScreens.designs:
+                HangarLeftScreen.SetEnable();
+                ShopScreen.SetEnable(true);
                 break;
+
             case HangarScreens.trade:
                 break;
             case HangarScreens.laboratory:
@@ -79,8 +95,12 @@ public class HangarScreen : MonoBehaviour
     private void DisableAll()
     {
         HomeScreen.SetDisable();
-        OverwievScreen.SetDisable(true);
+
         HangarLeftScreen.SetDisable();
+
+        OverwievScreen.SetDisable(true);
+        EquipmentScreen.SetDisable(true);
+        ShopScreen.SetDisable(true);
     }
 
     private void StartMap()

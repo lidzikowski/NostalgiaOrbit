@@ -63,7 +63,7 @@ public class HangarEquipmentScreen : MonoBehaviour
     [SerializeField]
     public Sprite SmallInactiveSprite;
 
-    private bool FirstConfiguration = true;
+    private bool? FirstConfiguration = true;
     private Dictionary<CategoryTypes, Transform> Categories = new Dictionary<CategoryTypes, Transform>();
     private Dictionary<Guid, Transform> Drones = new Dictionary<Guid, Transform>();
 
@@ -141,7 +141,12 @@ public class HangarEquipmentScreen : MonoBehaviour
         {
             if (item.ResourceType < ResourceTypes.None)
             {
+                if (item.ResourceType == ResourceTypes.Uridium || item.ResourceType == ResourceTypes.Credits || item.ResourceType == ResourceTypes.Jackpot)
+                    continue;
+
                 CreateEmptySlot(CategoryTypes.UserResources);
+
+                CreateItem(item);
             }
         }
 
@@ -157,11 +162,11 @@ public class HangarEquipmentScreen : MonoBehaviour
 
     private void SpawnItem(Item item, AbstractItem abstractItem)
     {
-        if (item.IsEquipConfiguration1 && FirstConfiguration || item.IsEquipConfiguration2 && !FirstConfiguration)
+        if (item.IsEquipConfiguration1 && FirstConfiguration == true || item.IsEquipConfiguration2 && FirstConfiguration == false)
         {
             CreateItem(item, MathItem(abstractItem, true, false));
         }
-        else if (item.IsEquipInDroneConfiguration1 && FirstConfiguration || item.IsEquipInDroneConfiguration2 && !FirstConfiguration)
+        else if (item.IsEquipInDroneConfiguration1 && FirstConfiguration == true || item.IsEquipInDroneConfiguration2 && FirstConfiguration == false)
         {
             CreateItem(item, MathDroneItem(item.DroneIdConfiguration1.Value));
         }
@@ -200,6 +205,12 @@ public class HangarEquipmentScreen : MonoBehaviour
     private void CreateItem(Item item, Transform root)
     {
         GameObject go = Instantiate(ItemPrefab, FindEmptySlot(root.GetChild(1)));
+        go.GetComponent<ItemSlot>().Setup(item);
+    }
+
+    private void CreateItem(PilotResource item)
+    {
+        GameObject go = Instantiate(ItemPrefab, FindEmptySlot(Categories[CategoryTypes.UserResources].GetChild(1)));
         go.GetComponent<ItemSlot>().Setup(item);
     }
 
@@ -291,8 +302,16 @@ public class HangarEquipmentScreen : MonoBehaviour
         if (FirstConfiguration == true)
             return;
 
+        if (FirstConfiguration == null)
+        {
+            FirstConfiguration = true;
+
+            Inactive(ChooseShipButton, true);
+            Ship_Click();
+        }
+
         FirstConfiguration = true;
-        Click();
+        Click(false);
     }
     public void Config2_Click()
     {
@@ -302,15 +321,24 @@ public class HangarEquipmentScreen : MonoBehaviour
         if (FirstConfiguration == false)
             return;
 
+        if (FirstConfiguration == null)
+        {
+            FirstConfiguration = false;
+
+            Inactive(ChooseShipButton, true);
+            Ship_Click();
+        }
+
         FirstConfiguration = false;
-        Click();
+        Click(false);
     }
     public void ChooseShip_Click()
     {
-        InactiveAll(false);
+        InactiveAll(true, true, true);
         Active(ChooseShipButton, true);
         //ShipTransform.gameObject.SetEnable(); TODO
 
+        FirstConfiguration = null;
         RefreshAllUI();
     }
     public void Ship_Click()
@@ -319,6 +347,14 @@ public class HangarEquipmentScreen : MonoBehaviour
         Active(ShipButton, false);
         ShipTransform.gameObject.SetEnable();
 
+        if (FirstConfiguration == null)
+        {
+            FirstConfiguration = true;
+
+            Active(Config1Button, true);
+            Click(false);
+        }
+
         RefreshAllUI();
     }
     public void Drones_Click()
@@ -326,6 +362,14 @@ public class HangarEquipmentScreen : MonoBehaviour
         InactiveAll(false);
         Active(DronesButton, false);
         DronesTransform.gameObject.SetEnable();
+
+        if (FirstConfiguration == null)
+        {
+            FirstConfiguration = true;
+
+            Active(Config1Button, true);
+            Click(false);
+        }
 
         RefreshAllUI();
     }
@@ -338,19 +382,30 @@ public class HangarEquipmentScreen : MonoBehaviour
     {
         button.GetComponent<Image>().sprite = small ? SmallInactiveSprite : InactiveSprite;
     }
-    private void InactiveAll(bool header, bool withLayer = true)
+    private void InactiveAll(bool header, bool withLayer = true, bool all = false)
     {
-        if (header)
+        if (all)
         {
             Inactive(Config1Button, true);
             Inactive(Config2Button, true);
             Inactive(ChooseShipButton, true);
+            Inactive(ShipButton, false);
+            Inactive(DronesButton, false);
         }
         else
         {
-            Inactive(ChooseShipButton, true);
-            Inactive(ShipButton, false);
-            Inactive(DronesButton, false);
+            if (header)
+            {
+                Inactive(Config1Button, true);
+                Inactive(Config2Button, true);
+                Inactive(ChooseShipButton, true);
+            }
+            else
+            {
+                Inactive(ChooseShipButton, true);
+                Inactive(ShipButton, false);
+                Inactive(DronesButton, false);
+            }
         }
 
         if (withLayer)

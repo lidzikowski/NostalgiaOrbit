@@ -495,6 +495,255 @@ MonoBehaviour:
       x-1, x-2, x-3, x-4'
     m_Metadata:
       m_Items: []
+  - m_Id: 14359307350650880
+    m_Localized: '<b>IRIS</b>
+
+
+      Iris drone give you two extra slot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359477664559104
+    m_Localized: '<b>FLAX</b>
+
+
+      Flax drone give you one extra slot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14695404039516160
+    m_Localized: buy ammo now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14696119101239296
+    m_Localized: 'laser
+
+      ammunition'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14701010049773568
+    m_Localized: laser cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702295339708416
+    m_Localized: '<b>LF-1</b>
+
+
+      Small laser: causes up to 40 damage points
+      per round'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702490639085568
+    m_Localized: '<b>MP-1</b>
+
+
+      Average laser: causes up to 60 damage points
+      per round'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702755463245824
+    m_Localized: '<b>LF-2</b>
+
+
+      Strong laser: causes up to 100 damage points
+      per round'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702939651911680
+    m_Localized: '<b>LF-3</b>
+
+
+      Strongest laser: causes up to 150 damage points
+      per round'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14711914858491904
+    m_Localized: '<b>LCB-10</b>
+
+
+      Low efficiency for a low price'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712043690733568
+    m_Localized: '<b>MCB-25</b>
+
+
+      More bang for your buck: x2 laser damage
+      per round'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712765111021568
+    m_Localized: '<b>MCB-50</b>
+
+
+      The best standard laser ammo: x3 laser damage
+      per round'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712966387281920
+    m_Localized: '<b>SAB-50</b>
+
+
+      Shield absorbing ammo, turn this on, enemy
+      shields recharge your own'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713357728428032
+    m_Localized: '<b>R-310</b>
+
+
+      Short-range rocket: causes up to 1000 damage
+      points per rocket fired'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713614214311936
+    m_Localized: '<b>PLT-2026</b>
+
+
+      Mid-range rocket: causes up to 2000 damage
+      points per rocket fired'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713778647805952
+    m_Localized: '<b>PLT-2021</b>
+
+
+      Long-range rocket: causes up to 4000 damage
+      points per rocket fired'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713954733076480
+    m_Localized: '<b>ACM-1</b>
+
+
+      Proximity mine: 20% damage upon detonation'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14714927446700032
+    m_Localized: low capacity battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715156891906048
+    m_Localized: mid capacity battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715445237723136
+    m_Localized: big capacity battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715791251025920
+    m_Localized: absorption battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716059229302784
+    m_Localized: short-range rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716352113356800
+    m_Localized: mid-range rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716573375475712
+    m_Localized: long-range rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716742951186432
+    m_Localized: proximity mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14722050914201600
+    m_Localized: generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14726574785638400
+    m_Localized: shield generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14726836808003584
+    m_Localized: speed generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728739927306240
+    m_Localized: '<b>SG3N-A01</b>
+
+
+      1 000 extra shield
+
+      40% shield absorption'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728913558908928
+    m_Localized: '<b>SG3N-A02</b>
+
+
+      2 000 extra shield
+
+      50% shield absorption'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728988595007488
+    m_Localized: '<b>SG3N-B01</b>
+
+
+      4 000 extra shield
+
+      70% shield absorption'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729032144465920
+    m_Localized: '<b>SG3N-B02</b>
+
+
+      10 000 extra shield
+
+      80% shield
+      absorption'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729174113267712
+    m_Localized: '<b>G3N-1010</b>
+
+
+      Increases ship speed by 2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729255885418496
+    m_Localized: '<b>G3N-6900</b>
+
+
+      Increases ship speed by 7'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729327595433984
+    m_Localized: '<b>G3N-7900</b>
+
+
+      Increases ship speed by 10'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729371224584192
+    m_Localized: '<b>REP-1</b>
+
+
+      Repair hitpoints your ship in 120 seconds'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729427302428672
+    m_Localized: '<b>REP-2</b>
+
+
+      Repair hitpoints your ship in 90 seconds'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729461053992960
+    m_Localized: '<b>REP-3</b>
+
+
+      Repair hitpoints your ship in 60 seconds'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14735100962615296
+    m_Localized: repair robot
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
     00000000:

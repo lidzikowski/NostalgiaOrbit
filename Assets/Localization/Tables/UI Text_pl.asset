@@ -494,6 +494,195 @@ MonoBehaviour:
       x-1, x-2, x-3, x-4'
     m_Metadata:
       m_Items: []
+  - m_Id: 14359307350650880
+    m_Localized: '<b>IRIS</b>
+
+
+      Dron Iris zapewnia dwa dodatkowe miejsca'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359477664559104
+    m_Localized: '<b>FLAX</b>
+
+
+      Dron Flax zapewnia jedno dodatkowe miejsce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14695404039516160
+    m_Localized: "kup amunicj\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14696119101239296
+    m_Localized: 'amunicja
+
+      laserowa'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14701010049773568
+    m_Localized: laser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702295339708416
+    m_Localized: "<b>LF-1</b>\n\nMa\u0142y laser: powoduje 40 punkt\xF3w obra\u017Ce\u0144
+      na salw\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702490639085568
+    m_Localized: "<b>MP-1</b>\n\n\u015Aredni laser: powoduje 60 punkt\xF3w obra\u017Ce\u0144
+      na salw\u0119 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702755463245824
+    m_Localized: "<b>LF-2</b>\n\nSilny laser: powoduje 100 punkt\xF3w obra\u017Ce\u0144
+      na salw\u0119 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702939651911680
+    m_Localized: "<b>LF-3</b>\n\nNajsilniejszy laser: powoduje 150 punkt\xF3w obra\u017Ce\u0144
+      na salw\u0119 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14711914858491904
+    m_Localized: "<b>LCB-10</b>\n\nNiska wydajno\u015B\u0107 za nisk\u0105 cen\u0119 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712043690733568
+    m_Localized: "<b>MCB-25</b>\n\nWi\u0119cej huku za twoje pieni\u0105dze: obra\u017Cenia
+      laserowe x2 na salw\u0119 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712765111021568
+    m_Localized: "<b>MCB-50</b>\n\nNajlepsza standardowa amunicja laserowa: x3 obra\u017Cenia
+      lasera na salw\u0119 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712966387281920
+    m_Localized: "<b>SAB-50</b>\n\nAmunicja poch\u0142aniaj\u0105ca os\u0142on\u0119,
+      w\u0142\u0105cz j\u0105 a twoja os\u0142ona na\u0142aduj\u0105 si\u0119 z os\u0142on
+      przeciwnika"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713357728428032
+    m_Localized: "<b>R-310</b>\n\nRakieta kr\xF3tkiego zasi\u0119gu: powoduje do
+      1000 punkt\xF3w uszkodze\u0144"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713614214311936
+    m_Localized: "<b>PLT-2026</b>\n\nRakieta \u015Bredniego zasi\u0119gu: powoduje
+      do 2000 punkt\xF3w obra\u017Ce\u0144"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713778647805952
+    m_Localized: "<b>PLT-2021</b>\n\nRakieta dalekiego zasi\u0119gu: powoduje do
+      4000 punkt\xF3w uszkodze\u0144"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713954733076480
+    m_Localized: "<b>ACM-1</b>\n\nMina zbli\u017Ceniowa: 20% obra\u017Ce\u0144 po
+      detonacji "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14714927446700032
+    m_Localized: 'bateria o malej pojemnosci '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715156891906048
+    m_Localized: 'bateria o sredniej pojemnosci '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715445237723136
+    m_Localized: 'bateria o duzej pojemnosci '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715791251025920
+    m_Localized: 'bateria absorpcyjna '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716059229302784
+    m_Localized: 'rakieta krotkiego zasiegu '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716352113356800
+    m_Localized: rakieta sredniego zasiegu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716573375475712
+    m_Localized: 'rakieta dalekiego zasiegu '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716742951186432
+    m_Localized: mina zblizeniowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14722050914201600
+    m_Localized: generatory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14726574785638400
+    m_Localized: generator oslony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14726836808003584
+    m_Localized: generator predkosci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728739927306240
+    m_Localized: "<b>SG3N-A01</b>\n\n1 000 dodatkowej os\u0142ony\n40% absorcji os\u0142ony"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728913558908928
+    m_Localized: "<b>SG3N-A02</b>\n\n2 000 dodatkowej os\u0142ony\n50% absorcji os\u0142ony"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728988595007488
+    m_Localized: "<b>SG3N-B01</b>\n\n4 000 dodatkowej os\u0142ony\n70% absorcji os\u0142ony"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729032144465920
+    m_Localized: "<b>SG3N-B02</b>\n\n10 000 dodatkowej os\u0142ony\n80% absorcji
+      os\u0142ony"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729174113267712
+    m_Localized: "<b>G3N-1010</b>\n\nZwi\u0119ksza pr\u0119dko\u015B\u0107 statku
+      o 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729255885418496
+    m_Localized: "<b>G3N-6900</b>\n\nZwi\u0119ksza pr\u0119dko\u015B\u0107 statku
+      o 7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729327595433984
+    m_Localized: "<b>G3N-7900</b>\n\nZwi\u0119ksza pr\u0119dko\u015B\u0107 statku
+      o 10"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729371224584192
+    m_Localized: '<b>REP-1</b>
+
+
+      Naprawia poszycie statku w 120 sekund '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729427302428672
+    m_Localized: '<b>REP-2</b>
+
+
+      Naprawia poszycie statku w 90 sekund '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729461053992960
+    m_Localized: '<b>REP-3</b>
+
+
+      Naprawia poszycie statku w 60 sekund '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14735100962615296
+    m_Localized: robot naprawiajacy
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
     00000000:

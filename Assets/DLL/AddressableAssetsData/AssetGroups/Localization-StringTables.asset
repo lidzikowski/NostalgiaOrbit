@@ -22,43 +22,43 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
-    m_MainAsset: {fileID: 11400000, guid: 0e7c35ec15f069d4e937f6d6e86f3713, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 0e7c35ec15f069d4e937f6d6e86f3713, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 646c201c6f710cd439b2f6b796f79d1f
     m_Address: Newsletters_pl
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-pl
-    m_MainAsset: {fileID: 11400000, guid: 646c201c6f710cd439b2f6b796f79d1f, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 646c201c6f710cd439b2f6b796f79d1f, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 378fcc81603f0534fbe0ff9daf8bc027
     m_Address: UI Text_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
-    m_MainAsset: {fileID: 11400000, guid: 378fcc81603f0534fbe0ff9daf8bc027, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 378fcc81603f0534fbe0ff9daf8bc027, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 5f1ae6d405ac80248ab1173ff8fe436d
     m_Address: UI Text_pl
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-pl
-    m_MainAsset: {fileID: 11400000, guid: 5f1ae6d405ac80248ab1173ff8fe436d, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 5f1ae6d405ac80248ab1173ff8fe436d, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 699b6e2ee2985894eb90c45395c596df
     m_Address: UI Game_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
-    m_MainAsset: {fileID: 11400000, guid: 699b6e2ee2985894eb90c45395c596df, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 699b6e2ee2985894eb90c45395c596df, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: d24c1c2a8cfd6174ab6c45adc2829668
     m_Address: UI Game_pl
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-pl
-    m_MainAsset: {fileID: 11400000, guid: d24c1c2a8cfd6174ab6c45adc2829668, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: d24c1c2a8cfd6174ab6c45adc2829668, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b574194f29479874e8b4d66e1dbf3da1, type: 2}
   m_SchemaSet:

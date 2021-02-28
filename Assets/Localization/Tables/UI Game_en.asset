@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3688481107968
-    m_Localized: SHIELDS
+    m_Localized: SHIELD
     m_Metadata:
       m_Items: []
   - m_Id: 3797734338560
@@ -124,6 +124,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 10816158799966208
     m_Localized: auction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12283887511875584
+    m_Localized: Shields
     m_Metadata:
       m_Items: []
   references:

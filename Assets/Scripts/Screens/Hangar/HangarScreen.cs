@@ -23,8 +23,9 @@ public class HangarScreen : MonoBehaviour
     [SerializeField]
     public GameObject EquipmentScreen;
     [SerializeField]
-    public GameObject ShopScreen;
+    public HangarShopController ShopController;
 
+    private HangarScreens? CurrentScreen;
 
     private void Start()
     {
@@ -39,6 +40,11 @@ public class HangarScreen : MonoBehaviour
 
     public void ChangeScreen(HangarScreens screen)
     {
+        if (CurrentScreen == screen)
+            return;
+
+        CurrentScreen = screen;
+
         DisableAll();
 
         CurrentAreaText.text = screen.ToString();
@@ -69,7 +75,8 @@ public class HangarScreen : MonoBehaviour
             case HangarScreens.boosters:
             case HangarScreens.designs:
                 HangarLeftScreen.SetEnable();
-                ShopScreen.SetEnable(true);
+                ShopController.gameObject.SetEnable(true);
+                ShopController.Configure(screen);
                 break;
 
             case HangarScreens.trade:
@@ -100,7 +107,7 @@ public class HangarScreen : MonoBehaviour
 
         OverwievScreen.SetDisable(true);
         EquipmentScreen.SetDisable(true);
-        ShopScreen.SetDisable(true);
+        ShopController.gameObject.SetDisable(true);
     }
 
     private void StartMap()

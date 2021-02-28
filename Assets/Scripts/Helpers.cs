@@ -12,6 +12,7 @@ public static class Helpers
     private static Dictionary<PrefabTypes, GameObject> prefabCache = new Dictionary<PrefabTypes, GameObject>();
     private static Dictionary<ResourceTypes, GameObject> resourceCache = new Dictionary<ResourceTypes, GameObject>();
     private static Dictionary<ItemTypes, Texture> InventoryTextureCache = new Dictionary<ItemTypes, Texture>();
+    private static Dictionary<ResourceTypes, Texture> InventoryResourceTextureCache = new Dictionary<ResourceTypes, Texture>();
 
     public static Sprite[] LoadSpritesResource(PrefabTypes resource)
     {
@@ -62,6 +63,16 @@ public static class Helpers
         return InventoryTextureCache[resource];
     }
 
+    public static Texture LoadInventoryTextureResource(ResourceTypes resource)
+    {
+        if (!InventoryResourceTextureCache.ContainsKey(resource))
+            InventoryResourceTextureCache.Add(resource, Resources.Load<Texture>($"ui/items/{resource}"));
+
+        Debug.Log($"Załadowano inventory texture '{resource}'");
+
+        return InventoryResourceTextureCache[resource];
+    }
+
     public static void DestroyAllChilds(Transform transform)
     {
         foreach (Transform child in transform)
@@ -71,8 +82,8 @@ public static class Helpers
     }
 
 
-    public static readonly string ThousandSeparator = "### ### ### ###";
-    public static readonly string DoubleSeparator = $"#,0.00";
+    public static readonly string ThousandSeparator = "### ### ###";
+    public static readonly string DoubleSeparator = $"#,#.00";
     public static NumberFormatInfo NumberFormat
     {
         get

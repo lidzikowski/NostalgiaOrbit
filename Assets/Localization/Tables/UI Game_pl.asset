@@ -126,5 +126,9 @@ MonoBehaviour:
     m_Localized: aukcja
     m_Metadata:
       m_Items: []
+  - m_Id: 12283887511875584
+    m_Localized: Oslony
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

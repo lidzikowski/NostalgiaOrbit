@@ -186,6 +186,7 @@ public class SpriteAnimation : MonoBehaviour
             ChangeSpriteResource = prefabType;
         }
 
+        currentFrame = 0;
         spriteFrames = Helpers.LoadSpritesResource(prefabType);
 
         framePerAngle = 360 / spriteFrames.Length;

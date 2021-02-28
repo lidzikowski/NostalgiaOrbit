@@ -9,5 +9,5 @@ public class HangarShopManager
     public ItemShopTypes ItemType;
 
     [SerializeField]
-    public HangarShopItemInformation ItemInformation;
+    public HangarShopItemInformationParent ItemInformation;
 }

@@ -419,6 +419,162 @@ MonoBehaviour:
     m_Key: shop_bonus
     m_Metadata:
       m_Items: []
+  - m_Id: 14359307350650880
+    m_Key: iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359477664559104
+    m_Key: flax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14695404039516160
+    m_Key: buy ammo now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14696119101239296
+    m_Key: laser ammunition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14701010049773568
+    m_Key: laser cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702295339708416
+    m_Key: lf1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702490639085568
+    m_Key: mp1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702755463245824
+    m_Key: lf2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14702939651911680
+    m_Key: lf3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14711914858491904
+    m_Key: ammo1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712043690733568
+    m_Key: ammo2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712765111021568
+    m_Key: ammo3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14712966387281920
+    m_Key: ammoSab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713357728428032
+    m_Key: rocket1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713614214311936
+    m_Key: rocket2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713778647805952
+    m_Key: rocket3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713954733076480
+    m_Key: mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14714927446700032
+    m_Key: low capacity battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715156891906048
+    m_Key: mid capacity battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715445237723136
+    m_Key: big capacity battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14715791251025920
+    m_Key: absorption battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716059229302784
+    m_Key: short-range rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716352113356800
+    m_Key: mid-range rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716573375475712
+    m_Key: long-range rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14716742951186432
+    m_Key: Proximity mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14722050914201600
+    m_Key: generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14726574785638400
+    m_Key: shield generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14726836808003584
+    m_Key: speed generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728739927306240
+    m_Key: shield1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728913558908928
+    m_Key: shield2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14728988595007488
+    m_Key: shield3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729032144465920
+    m_Key: shield4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729174113267712
+    m_Key: gear1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729255885418496
+    m_Key: gear2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729327595433984
+    m_Key: gear3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729371224584192
+    m_Key: rep1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729427302428672
+    m_Key: rep2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14729461053992960
+    m_Key: rep3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14735100962615296
+    m_Key: repair robot
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

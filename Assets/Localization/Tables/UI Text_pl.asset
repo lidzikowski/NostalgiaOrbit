@@ -683,6 +683,24 @@ MonoBehaviour:
     m_Localized: robot naprawiajacy
     m_Metadata:
       m_Items: []
+  - m_Id: 15071635079639040
+    m_Localized: "Czy naprawd\u0119 chcesz kupi\u0107"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15072318201737216
+    m_Localized: za
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15073181913788416
+    m_Localized: "Kiedy kupujesz nowy statek kosmiczny, stary statek zostanie przeniesiony
+      do hangaru, ale mo\u017Cesz zachowa\u0107 ca\u0142e wyposa\u017Cenie na pok\u0142adzie,
+      nawet je\u015Bli kupisz mniejszy statek. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15074546589315072
+    m_Localized: Standardowo
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
     00000000:

@@ -30,6 +30,9 @@ public class HangarShopController : MonoBehaviour
     [SerializeField]
     public Transform ContentItemsTransform;
 
+    [SerializeField]
+    public ItemPopup ItemPopup;
+
     private void OnEnable()
     {
         DisableAllShops();
@@ -50,11 +53,17 @@ public class HangarShopController : MonoBehaviour
         if (shopItem.CanBuyByCredit || shopItem.CanBuyUridium)
         {
             BuyButton.gameObject.SetEnable();
+            BuyButton.onClick.AddListener(() =>
+            {
+                ItemPopup.Configure(shopItem);
+            });
         }
 
         var shop = ShopItems.First(o => o.ItemType == shopItem.ItemShopType);
         shop.ItemInformation.gameObject.SetEnable();
         shop.ItemInformation.GetComponent<HangarShopItemInformationParent>().Configure(shopItem);
+
+        ItemPopup.gameObject.SetDisable();
     }
 
     private void DisableAllShops()

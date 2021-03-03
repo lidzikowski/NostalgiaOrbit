@@ -98,4 +98,22 @@ public static class Helpers
     {
         LayoutRebuilder.ForceRebuildLayoutImmediate(transform.GetComponent<RectTransform>());
     }
+
+    public static string GetItemPrice(ShopItem shopItem, int i = 0)
+    {
+        if (shopItem.CanBuyByCredit)
+        {
+            var price = shopItem.CreditPurchase[i];
+            return price > 0 ? price.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat) + " C." : "0 C.";
+        }
+        else if (shopItem.CanBuyUridium)
+        {
+            var price = shopItem.UridiumPurchase[i];
+            return price > 0 ? price.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat) + " U." : "0 U.";
+        }
+        else
+        {
+            return "-";
+        }
+    }
 }

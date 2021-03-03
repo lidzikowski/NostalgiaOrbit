@@ -2,7 +2,6 @@ using NostalgiaOrbitDLL;
 using NostalgiaOrbitDLL.Core;
 using NostalgiaOrbitDLL.Drones;
 using NostalgiaOrbitDLL.Items;
-using NostalgiaOrbitDLL.Resources;
 using NostalgiaOrbitDLL.Ships;
 using System.Collections.Generic;
 using TMPro;
@@ -67,21 +66,6 @@ public class HangarShopItem : MonoBehaviour
 
         ShopItem = DLLHelpers.GetShopItem(ItemType);
 
-        //ItemName.text = ItemType.ToString();
-
-        if (ShopItem.CanBuyByCredit)
-        {
-            var price = ShopItem.CreditPurchase[0];
-            ItemPrice.text = price > 0 ? price.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat) + " C." : "0 C.";
-        }
-        else if (ShopItem.CanBuyUridium)
-        {
-            var price = ShopItem.UridiumPurchase[0];
-            ItemPrice.text = price > 0 ? price.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat) + " U." : "0 U.";
-        }
-        else
-        {
-            ItemPrice.text = "-";
-        }
+        ItemPrice.text = Helpers.GetItemPrice(ShopItem);
     }
 }

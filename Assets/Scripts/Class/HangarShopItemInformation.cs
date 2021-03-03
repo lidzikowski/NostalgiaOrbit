@@ -14,6 +14,8 @@ public class HangarShopItemInformation : MonoBehaviour
 
     [Header("Statistics")]
     [SerializeField]
+    public GameObject Normal_Text;
+    [SerializeField]
     public TMP_Text HitpointsText;
     [SerializeField]
     public TMP_Text SpeedText;
@@ -29,6 +31,7 @@ public class HangarShopItemInformation : MonoBehaviour
     [Header("Bonus statistics")]
     [SerializeField]
     public GameObject Bonus_Text;
+
     [SerializeField]
     public TMP_Text Bonus_HitpointsText;
     [SerializeField]
@@ -102,8 +105,39 @@ public class HangarShopItemInformation : MonoBehaviour
     [SerializeField]
     public TMP_Text REP_3Text;
 
+    private void Clear()
+    {
+        Clear(transform);
+
+        void Clear(Transform parent, bool withChild = true)
+        {
+            foreach (Transform child in parent)
+            {
+                if (child.TryGetComponent<TMP_Text>(out var tmpText))
+                {
+                    child.gameObject.SetDisable();
+
+                    if (TextColor.HasValue)
+                    {
+                        tmpText.color = TextColor.Value;
+                    }
+
+                    Clear(child);
+                }
+            }
+        }
+    }
+
+    private Color? TextColor;
+    public void ConfigureColor(Color textColor)
+    {
+        TextColor = textColor;
+    }
+
     public void Configure(ShopItem shopItem)
     {
+        Clear();
+
         ItemType = shopItem.ItemShopType;
         ShopItem = shopItem;
 
@@ -123,6 +157,7 @@ public class HangarShopItemInformation : MonoBehaviour
 
             if (abstractShip.Bonus_Statistics)
             {
+                Normal_Text.gameObject.SetEnable();
                 Bonus_Text.gameObject.SetEnable();
 
                 var hitpoints = abstractShip.Bonus_Hitpoints.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat);
@@ -243,6 +278,12 @@ public class HangarShopItemInformation : MonoBehaviour
     private void SetText(TMP_Text obj, string text)
     {
         obj.gameObject.SetEnable(true);
+
+        if (TextColor.HasValue && obj.TryGetComponent<TMP_Text>(out var tmpText))
+        {
+            tmpText.color = TextColor.Value;
+        }
+
         obj.text = text;
     }
 }

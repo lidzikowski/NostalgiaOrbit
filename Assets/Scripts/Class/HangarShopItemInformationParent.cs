@@ -18,20 +18,7 @@ public class HangarShopItemInformationParent : MonoBehaviour
         ItemType = shopItem.ItemShopType;
         ShopItem = shopItem;
 
-        if (ShopItem.CanBuyByCredit)
-        {
-            var price = ShopItem.CreditPurchase[0];
-            ItemPrice.text = price > 0 ? price.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat) + " C." : "0 C.";
-        }
-        else if (ShopItem.CanBuyUridium)
-        {
-            var price = ShopItem.UridiumPurchase[0];
-            ItemPrice.text = price > 0 ? price.ToString(Helpers.ThousandSeparator, Helpers.NumberFormat) + " U." : "0 U.";
-        }
-        else
-        {
-            ItemPrice.text = "-";
-        }
+        ItemPrice.text = Helpers.GetItemPrice(shopItem);
 
         Child.Configure(shopItem);
     }

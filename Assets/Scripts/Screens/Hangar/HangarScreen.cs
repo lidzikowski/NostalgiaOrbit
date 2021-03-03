@@ -1,4 +1,5 @@
 using NostalgiaOrbitDLL;
+using NostalgiaOrbitDLL.Core.Commands;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -92,6 +93,7 @@ public class HangarScreen : MonoBehaviour
             case HangarScreens.help:
                 break;
             case HangarScreens.logout:
+                LogOut();
                 break;
             case HangarScreens.map:
                 StartMap();
@@ -107,11 +109,21 @@ public class HangarScreen : MonoBehaviour
 
         OverwievScreen.SetDisable(true);
         EquipmentScreen.SetDisable(true);
-        ShopController.gameObject.SetDisable(true);
+
+        if (ShopController != null)
+        {
+            ShopController.ItemPopup.gameObject.SetDisable();
+            ShopController.gameObject.SetDisable(true);
+        }
     }
 
     private void StartMap()
     {
         Client.CreateSocket(ServerChannels.Game, () => SceneManager.LoadScene("GameScene"), () => ChangeScreen(HangarScreens.overwiev));
+    }
+
+    private void LogOut()
+    {
+        Client.SendToSocket(ServerChannels.Hangar, new LogoutCommand(LogoutTypes.FromHome));
     }
 }

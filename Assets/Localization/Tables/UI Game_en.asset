@@ -130,5 +130,9 @@ MonoBehaviour:
     m_Localized: Shields
     m_Metadata:
       m_Items: []
+  - m_Id: 12632311587352576
+    m_Localized: transaction
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

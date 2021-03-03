@@ -694,8 +694,7 @@ MonoBehaviour:
 
       10 000 extra shield
 
-      80% shield
-      absorption'
+      80% shield absorption'
     m_Metadata:
       m_Items: []
   - m_Id: 14729174113267712
@@ -742,6 +741,23 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14735100962615296
     m_Localized: repair robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15071635079639040
+    m_Localized: Do you really want to buy the
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15072318201737216
+    m_Localized: for
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15073181913788416
+    m_Localized: When you buy new spaceship, the old ship will be moved to hangar,
+      but you can keep all equipment on board even if you buy a smaller ship.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15074546589315072
+    m_Localized: Standard
     m_Metadata:
       m_Items: []
   references:

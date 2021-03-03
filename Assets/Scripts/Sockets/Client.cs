@@ -35,6 +35,12 @@ public class Client : MonoBehaviour
             if (onClose != null)
                 Sockets[serverChannel].OnClose = () => onClose.Invoke();
 
+            if (Sockets[serverChannel].Socket.IsAlive)
+            {
+                if (onOpen != null)
+                    onOpen.Invoke();
+            }
+
             Sockets[serverChannel].ConnectToServer();
         }
         else

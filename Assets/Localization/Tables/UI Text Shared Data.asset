@@ -575,6 +575,22 @@ MonoBehaviour:
     m_Key: repair robot
     m_Metadata:
       m_Items: []
+  - m_Id: 15071635079639040
+    m_Key: want to buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15072318201737216
+    m_Key: for
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15073181913788416
+    m_Key: buy new ship info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15074546589315072
+    m_Key: standard
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
